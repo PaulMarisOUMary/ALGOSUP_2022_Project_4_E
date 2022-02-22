@@ -46,7 +46,29 @@ We need to obey the laws of physics in the virtual world, no super powers, you c
 
 ## 4. Ressource
 
-At out disposal, we are provided with a 3d file produced by the architect of the building (bimx format) as well as 2D maps of each floor (PDF).
+At out disposal, we are provided with a 3d file produced by the
+architect of the building (BIMx[^5]) as well as 2D maps of each floor (PDF).
+
+[^5]:A BIMx file is a BIMx file created by GRAPHISOFT ArchiCAD, an architectural CAD program. It contains a virtual architectural project that includes 3D models and 2D drawing sheets. BIMx files are created in ArchiCAD when a user exports the project to the BIMx format.
+
+We use an Oculus Quest 2[^1] to support our simulation.
+
+[^1]:<br>Oculus Quest 2 is a virtual reality headset created by Facebook Technologies, It is the successor to the company's previous headset, the Oculus Quest.
+The included controllers with the Quest 2 are the third generation Oculus Touch controllers.
+
+We use the following softwares:
+- Visual Studio[^2]
+  
+  [^2]:<br>Visual Studio Code is a source-code editor made by Microsoft for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git.
+
+- Unity[^3]
+  
+  [^3]:<br>Unity is a cross-platform game engine developed by Unity Technologies,The engine support a variety of desktop, mobile, console and virtual reality platforms. It is particularly popular for iOS and Android mobile game development and used for games such as Pokémon Go. It is considered easy to use for beginner developers and is popular for indie game development.
+
+- Oculus
+- Solidworks[^4]
+  
+  [^4]:<br>SolidWorks is a solid modeling computer-aided design and computer-aided engineering computer program published by Dassault Systèmes, that runs primarily on Microsoft Windows.
   
 ## 5. Risks and assumptions
 
@@ -59,3 +81,4 @@ At out disposal, we are provided with a 3d file produced by the architect of the
 ## 9. System configurations
 
 ## 10. Error reporting and exception handling
+
