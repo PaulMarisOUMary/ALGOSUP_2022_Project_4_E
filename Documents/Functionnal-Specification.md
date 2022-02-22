@@ -3,12 +3,13 @@
   - [1. Stakeholders](#1-stakeholders)
   - [2. Project target](#2-project-target)
   - [3. Project and scope](#3-project-and-scope)
-  - [4. Risks and assumptions](#4-risks-and-assumptions)
-  - [5. Use cases](#5-use-cases)
-  - [6. Requirements specs](#6-requirements-specs)
-  - [7. Solution overview](#7-solution-overview)
-  - [8. System configurations](#8-system-configurations)
-  - [9. Error reporting and exception handling](#9-error-reporting-and-exception-handling)
+  - [4. Ressource](#4-ressource)
+  - [5. Risks and assumptions](#5-risks-and-assumptions)
+  - [6. Use cases](#6-use-cases)
+  - [7. Requirements specs](#7-requirements-specs)
+  - [8. Solution overview](#8-solution-overview)
+  - [9. System configurations](#9-system-configurations)
+  - [10. Error reporting and exception handling](#10-error-reporting-and-exception-handling)
 
 </details>
 
@@ -38,15 +39,23 @@ One of our goal is to furnish the building and simulate somethings like the elec
 ## 2. Project target
 
 ## 3. Project and scope
+
+We need to have realistic and testable scenarios about access control, room usage, circulation, signage, furniture, storage, plugs, toilets, etc.
+The virtual setup needs to be as close as possible to the real setup.
+We need to obey the laws of physics in the virtual world, no super powers, you can’t walk across walls, fly, etc.
+
+## 4. Ressource
+
+At out disposal, we are provided with a 3d file produced by the architect of the building (bimx format) as well as 2D maps of each floor (PDF).
   
-## 4. Risks and assumptions
+## 5. Risks and assumptions
 
-## 5. Use cases
+## 6. Use cases
 
-## 6. Requirements specs
+## 7. Requirements specs
 
-## 7. Solution overview
+## 8. Solution overview
 
-## 8. System configurations
+## 9. System configurations
 
-## 9. Error reporting and exception handling
+## 10. Error reporting and exception handling
