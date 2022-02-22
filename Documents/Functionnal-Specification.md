@@ -20,7 +20,7 @@ Team: *Paul MARIS, Clément CATON, Laurent BOUQUIN, Florent HUREAUX, Léo CHARTI
 
 # Overview
 
-Our project is based on the Virtual Reality, we have to use it to simulate a typical day in Algosup when it will be based at B3.
+Our project is based on the Virtual Reality, we have to use it to simulate a typical day in Algosup[^6] when it will be based at B3[^7].
 One of our goal is to furnish the building and simulate somethings like the electrical outlets, restrooms, elevator and many other things that we have to imagine.  
 
 
@@ -47,28 +47,16 @@ We need to obey the laws of physics in the virtual world, no super powers, you c
 ## 4. Ressource
 
 At out disposal, we are provided with a 3d file produced by the
-architect of the building (BIMx[^5]) as well as 2D maps of each floor (PDF).
+architect of the building (BIMx[^1]) as well as 2D maps of each floor (PDF).
 
-[^5]:A BIMx file is a BIMx file created by GRAPHISOFT ArchiCAD, an architectural CAD program. It contains a virtual architectural project that includes 3D models and 2D drawing sheets. BIMx files are created in ArchiCAD when a user exports the project to the BIMx format.
-
-We use an Oculus Quest 2[^1] to support our simulation.
-
-[^1]:<br>Oculus Quest 2 is a virtual reality headset created by Facebook Technologies, It is the successor to the company's previous headset, the Oculus Quest.
-The included controllers with the Quest 2 are the third generation Oculus Touch controllers.
+We use an Oculus Quest 2[^2] to support our simulation.
 
 We use the following softwares:
-- Visual Studio[^2]
-  
-  [^2]:<br>Visual Studio Code is a source-code editor made by Microsoft for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git.
-
-- Unity[^3]
-  
-  [^3]:<br>Unity is a cross-platform game engine developed by Unity Technologies,The engine support a variety of desktop, mobile, console and virtual reality platforms. It is particularly popular for iOS and Android mobile game development and used for games such as Pokémon Go. It is considered easy to use for beginner developers and is popular for indie game development.
-
+- Visual Studio[^3]
+- Unity[^4]
 - Oculus
-- Solidworks[^4]
-  
-  [^4]:<br>SolidWorks is a solid modeling computer-aided design and computer-aided engineering computer program published by Dassault Systèmes, that runs primarily on Microsoft Windows.
+- Solidworks[^5]
+
   
 ## 5. Risks and assumptions
 
@@ -82,3 +70,17 @@ We use the following softwares:
 
 ## 10. Error reporting and exception handling
 
+  [^1]: A BIMx file is a BIMx file created by GRAPHISOFT ArchiCAD, an architectural CAD program. It contains a virtual architectural project that includes 3D models and 2D drawing sheets. BIMx files are created in ArchiCAD when a user exports the project to the BIMx format.
+
+  [^2]: Oculus Quest 2 is a virtual reality headset created by Facebook Technologies, It is the successor to the company's previous headset, the Oculus Quest.
+  The included controllers with the Quest 2 are the third generation Oculus Touch controllers.
+
+  [^3]: Visual Studio Code is a source-code editor made by Microsoft for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git.
+
+  [^4]: Unity is a cross-platform game engine developed by Unity Technologies,The engine support a variety of desktop, mobile, console and virtual reality platforms. It is particularly popular for iOS and Android mobile game development and used for games such as Pokémon Go. It is considered easy to use for beginner developers and is popular for indie game development.
+
+  [^5]: SolidWorks is a solid modeling computer-aided design and computer-aided engineering computer program published by Dassault Systèmes, that runs primarily on Microsoft Windows.
+
+  [^6]: An innovative programming school based in Vierzon, France.
+
+  [^7]: The B3 is an old factory that used to house the Société Française(a company that made tractors), now this building has been restored to contain Algosup, the CNAM, a start-up incubator and a connected campus.
