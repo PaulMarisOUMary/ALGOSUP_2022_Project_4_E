@@ -1,4 +1,4 @@
-- [Project 4: Virtual Reality - Group F](#project-4-virtual-reality---group-f)
+- [Project 4: Virtual Reality - Group E](#project-4-virtual-reality---group-e)
 - [Overview](#overview)
   - [1. Stakeholders](#1-stakeholders)
   - [2. Project target](#2-project-target)
@@ -13,7 +13,7 @@
 
 </details>
 
-# Project 4: Virtual Reality - Group F
+# Project 4: Virtual Reality - Group E
 
 Functionnal Specification **February 2022**
 Team: *Paul MARIS, Clément CATON, Laurent BOUQUIN, Florent HUREAUX, Léo CHARTIER, Pierre GORIN*
