@@ -1,6 +1,6 @@
 # ALGOSUP_2022_Project_4_E
 
-## C# norms used :
+## C# coding convensions used :
 
  - `class` : PascalCase
  - `record` : PascalCase
