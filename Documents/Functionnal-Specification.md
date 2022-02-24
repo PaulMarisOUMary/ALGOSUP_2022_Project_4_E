@@ -7,7 +7,7 @@
   - [1. Stakeholders](#1-stakeholders)
   - [2. Project target](#2-project-target)
   - [3. Project and scope](#3-project-and-scope)
-  - [4. Resource](#4-resource)
+  - [4. Resources](#4-resources)
   - [5. Risks and assumptions](#5-risks-and-assumptions)
   - [6. Use cases](#6-use-cases)
   - [7. Requirements specs](#7-requirements-specs)
@@ -29,7 +29,6 @@ Team: _Paul MARIS, Clément CATON, Laurent BOUQUIN, Florent HUREAUX, Léo CHARTI
 # Overview
 
 Our project is based on the Virtual Reality, we have to use it to simulate a typical day in Algosup[^6] when it will be based at B3[^7].
-One of our goal is to furnish the building and simulate somethings like the electrical outlets, restrooms, elevator and many other things that we have to imagine.
 
 <br>
 
@@ -51,7 +50,9 @@ One of our goal is to furnish the building and simulate somethings like the elec
 
 ## 2. Project target
 
-<!-- Placeholder -->
+The goal of this project is to animate the 3D model of the school in VR. This means we need to create interactivity with the components around the school in order to fully experience a day in the life of a school member.
+
+One of our goal is to furnish the building and simulate things such as doors, classes, general daily life and many other things that we have to imagine.
 
 <br>
 
@@ -59,27 +60,32 @@ One of our goal is to furnish the building and simulate somethings like the elec
 
 We need to have realistic and testable scenarios about access control, room usage, circulation, signage, furniture, storage, plugs, toilets, etc.
 The virtual setup needs to be as close as possible to the real setup.
+
 We need to obey the laws of physics in the virtual world, no super powers, you can’t walk across walls, fly, etc.
+
+However we do not need to create the 3D model of the structure, given to us by the architect.
 
 <br>
 
-## 4. Resource
+## 4. Resources
 
-At out disposal, we are provided with a 3d file produced by the
-architect of the building (BIMx[^1]) as well as 2D maps of each floor (PDF).
+At out disposal, we are provided with a 3d file produced by the architect of the building (BIMx[^1]) as well as 2D maps of each floor (PDF).
 
 We use an Oculus Quest 2[^2] to support our simulation.
 
 We use the following softwares:
-
 - Visual Studio[^3]
 - Unity[^4]
 - Oculus
 - Solidworks[^5]
 
+For the furniture, we can freely use the models on Unity's Asset Store.
+
 ## 5. Risks and assumptions
 
-<!-- Placeholder -->
+One of the major risk for this project is the initial 3D model of the building. Even though we are provided with it by the architect who is a professional, we cannot assume it to be perfect and the model may not be compatible with our softwares.
+
+Since this model is a major corner-stone, any problem with the original file may cause either a lot of delay in the final delivery or reduce the quality of the other features.
 
 <br>
 
