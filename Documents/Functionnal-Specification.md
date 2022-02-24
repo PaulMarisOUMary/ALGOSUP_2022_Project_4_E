@@ -81,6 +81,8 @@ We use the following softwares:
 
 For the furniture, we can freely use the models on Unity's Asset Store.
 
+<br>
+
 ## 5. Risks and assumptions
 
 One of the major risk for this project is the initial 3D model of the building. Even though we are provided with it by the architect who is a professional, we cannot assume it to be perfect and the model may not be compatible with our softwares.
@@ -91,7 +93,13 @@ Since this model is a major corner-stone, any problem with the original file may
 
 ## 6. Use cases
 
-<!-- Placeholder -->
+The reason for this project is that the school's staff want to preview the final build before the end of the constructions. This will allow them to adapt for the future such as buying new furniture.
+
+This will also allow them for marketing purposes and promote the school more easily.
+
+Finally, since the simulation is not limited to a single place, anyone with a VR headset will be able to virtually visit the new school.
+This will be useful for potential students far away from their location (even abroad).
+Moreover, with the Covid pandemic, this will also make visits easier by not having physical contact and reducing the probability of infection.
 
 <br>
 
