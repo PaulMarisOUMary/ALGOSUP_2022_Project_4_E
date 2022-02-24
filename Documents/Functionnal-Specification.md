@@ -111,7 +111,24 @@ Moreover, with the Covid pandemic, this will also make visits easier by not havi
 
 ## 8. Solution overview
 
-<!-- Placeholder -->
+First of all, the user will be placed in a personae selected from this list:
+- Student [Léo Chartier]
+- Staff [Franck Jeannin]
+- Professor [Sebastien Goisbeault]
+- Visitor [Éric Larchevêque]
+- Handicapped person with reduced mobility (wheelchair) [Stephen Hawking]
+
+Then, since we will simulate reality, we are going to implement physics features including gravity, solid walls, and a day/night cycle.
+
+On top of that will be different items and objects that the user will interact with. Those will be:
+- Furniture (+electric plugs, toilets...)
+- Unlocking doors with a magnetic card
+- Lights with motion sensors and switches
+- Functional whiteboards
+- The elevator for the handicapped personae
+- Signage on doors (+schedules) and around the school
+
+All of this will be used to recreate different situations of the daily life at school with courses, lunch time or fire exercises.
 
 <br>
 
