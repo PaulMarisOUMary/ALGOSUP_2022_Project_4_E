@@ -12,8 +12,6 @@
   - [6. Use cases](#6-use-cases)
   - [7. Requirements specs](#7-requirements-specs)
   - [8. Solution overview](#8-solution-overview)
-  - [9. System configurations](#9-system-configurations)
-  - [10. Error reporting and exception handling](#10-error-reporting-and-exception-handling)
 
 </details>
 <br><br>
@@ -89,6 +87,8 @@ One of the major risk for this project is the initial 3D model of the building. 
 
 Since this model is a major corner-stone, any problem with the original file may cause either a lot of delay in the final delivery or reduce the quality of the other features.
 
+Compatibility between all headsets is not guaranteed.
+
 <br>
 
 ## 6. Use cases
@@ -105,7 +105,10 @@ Moreover, with the Covid pandemic, this will also make visits easier by not havi
 
 ## 7. Requirements specs
 
-<!-- Placeholder -->
+The user should be able to move in a 3D space inside the school and interact with the different components.
+Those interactions should be possible using a VR headset and controllers.
+Different components with their own way of interaction should be available.
+Those interactions should be realistic and realistic enough to be used in real life, more infos in the technical specifications.
 
 <br>
 
@@ -129,18 +132,6 @@ On top of that will be different items and objects that the user will interact w
 - Signage on doors (+schedules) and around the school
 
 All of this will be used to recreate different situations of the daily life at school with courses, lunch time or fire exercises.
-
-<br>
-
-## 9. System configurations
-
-<!-- Placeholder -->
-
-<br>
-
-## 10. Error reporting and exception handling
-
-<!-- Placeholder -->
 
 <br><br>
 
