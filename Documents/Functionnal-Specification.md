@@ -69,7 +69,7 @@ However we do not need to create the 3D model of the structure, given to us by t
 
 ## 4. Resources
 
-At out disposal, we are provided with a 3d file produced by the architect of the building (BIMx[^1]) as well as 2D maps of each floor (PDF).
+At out disposal, we are provided with a 3d file produced by the architect of the building (BIMx[^1], FBX[^8], MLT[^9] & OBJ[^10]) as well as 2D maps of each floor (PDF).
 
 We use an Oculus Quest 2[^2] to support our simulation.
 
@@ -160,3 +160,9 @@ The included controllers with the Quest 2 are the third generation Oculus Touch 
 [^6]: An innovative programming school based in Vierzon, France.
 
 [^7]: The B3 is an old factory that used to house the Société Française(a company that made tractors), now this building has been restored to contain Algosup, the CNAM, a start-up incubator and a connected campus.
+
+[^8]: FBX (Filmbox) is a proprietary file format ( . fbx ) developed by Kaydara and owned by Autodesk since 2006. It is used to provide interoperability between digital content creation applications. FBX is also part of Autodesk Gameware, a series of video game middleware.
+
+[^9]: An MLT file is a project created by Meltytech Shotcut, an open source video editor. It contains project settings in XML format, which includes information about media imported in the project, media placed on the timeline, effects applied to the media, and video and audio properties.
+
+[^10]: An OBJ file is a standard 3D image format that can be exported and opened by various 3D image editing programs. It contains a three-dimensional object, which includes 3D coordinates, texture maps, polygonal faces, and other object information. OBJ files may also store references to one or more .
