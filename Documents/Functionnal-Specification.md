@@ -25,7 +25,7 @@ Team: _Paul MARIS, Clément CATON, Laurent BOUQUIN, Florent HUREAUX, Léo CHARTI
 
 # Overview
 
-Our project is based on Virtual Reality (VR). We have to use it to simulate a typical day at Algosup[^1] when it will be based at the B3[^2].
+Our project is based on Virtual Reality (VR)[^0]. We have to use it to simulate a typical day at Algosup[^1] when it will be based at the B3[^2].
 
 <br>
 
@@ -137,6 +137,8 @@ All of this will be used to recreate different situations of the daily life at s
 <br><br>
 
 Footnotes:
+[^0]: Virtual reality (VR) is a simulated experience that can be similar to or completely different from the real world. Applications of virtual reality include entertainment, education and business. Other distinct types of VR-style technology include augmented reality and mixed reality, sometimes referred to as extended reality or XR.
+
 [^1]: An innovative programming school based in Vierzon, France.
 
 [^2]: The B3 is an old factory that used to house the Société Française(a company that made tractors), now this building has been restored to contain Algosup, the CNAM, a start-up incubator and a connected campus.
