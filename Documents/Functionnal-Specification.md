@@ -25,7 +25,7 @@ Team: _Paul MARIS, Clément CATON, Laurent BOUQUIN, Florent HUREAUX, Léo CHARTI
 
 # Overview
 
-Our project is based on Virtual Reality (VR). We have to use it to simulate a typical day at Algosup[^6] when it will be based at the B3[^7].
+Our project is based on Virtual Reality (VR)[^0]. We have to use it to simulate a typical day at Algosup[^1] when it will be based at the B3[^2].
 
 <br>
 
@@ -66,15 +66,15 @@ However we do not need to create the 3D model of the structure, given to us by t
 
 ## 4. Resources
 
-At out disposal, we are provided with the 3D file produced by the architect of the building in the BIMx[^1] format, as well as 2D maps of each floor (PDF). For practicality reasons, we will convert the 3D map in one of the following format: FBX[^8], MLT[^9] & OBJ[^10].
+At out disposal, we are provided with the 3D file produced by the architect of the building in the BIMx[^3] format, as well as 2D maps of each floor (PDF). For practicality reasons, we will convert the 3D map in one of the following format: FBX[^4], MLT[^5] & OBJ[^6].
 
-We will use an Oculus Quest 2[^2] to support our simulation.
+We will use an Oculus Quest 2[^7] to support our simulation.
 
 We will also use the following softwares:
-- Visual Studio[^3]
-- Unity[^4]
+- Visual Studio[^8]
+- Unity[^9]
 - Oculus
-- Solidworks[^5]
+- Solidworks[^10]
 
 For the furniture, we can freely use the models on Unity's Asset Store or from other models libraries.
 
@@ -150,26 +150,27 @@ All of this will be used to recreate different situations of the daily life at s
 <br><br>
 
 Footnotes:
+[^0]: Virtual reality (VR) is a simulated experience that can be similar to or completely different from the real world. Applications of virtual reality include entertainment, education and business. Other distinct types of VR-style technology include augmented reality and mixed reality, sometimes referred to as extended reality or XR.
 
-[^1]: A BIMx file is a document created by GRAPHISOFT ArchiCAD, an architectural CAD program. It contains a virtual architectural project that includes 3D models and 2D drawing sheets.
+[^1]: An innovative programming school based in Vierzon, France.
 
-[^2]: Oculus Quest 2 is a virtual reality headset created by Facebook Technologies. It is the successor to the company's previous headset, the Oculus Quest.
+[^2]: The B3 is an old factory that used to house the Société Française(a company that made tractors), now this building has been restored to contain Algosup, the CNAM, a start-up incubator and a connected campus.
+
+[^3]: A BIMx file is a document created by GRAPHISOFT ArchiCAD, an architectural CAD program. It contains a virtual architectural project that includes 3D models and 2D drawing sheets.
+
+[^4]: FBX (Filmbox) is a proprietary file format ( .fbx ) developed by Kaydara and owned by Autodesk since 2006. It is used to provide interoperability between digital content creation applications. FBX is also part of Autodesk Gameware, a series of video game middleware.
+
+[^5]: An MLT file is a project created by Meltytech Shotcut, an open source video editor. It contains project settings in XML format, which includes information about media imported in the project, media placed on the timeline, effects applied to the media, and video and audio properties.
+
+[^6]: An OBJ file is a standard 3D image format that can be exported and opened by various 3D image editing programs. It contains a three-dimensional object, which includes 3D coordinates, texture maps, polygonal faces, and other object information. OBJ files may also store references to one or more .
+
+[^7]: Oculus Quest 2 is a virtual reality headset created by Facebook Technologies. It is the successor to the company's previous headset, the Oculus Quest.
 The included controllers with the Quest 2 are the third generation Oculus Touch controllers.
 
-[^3]: Visual Studio Code is a source-code editor made by Microsoft for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, embedded Git, and more.
+[^8]: Visual Studio Code is a source-code editor made by Microsoft for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, embedded Git, and more.
 
-[^4]: Unity is a cross-platform game engine developed by Unity Technologies. The engine support a variety of desktop, mobile, console and virtual reality platforms. It is particularly popular for iOS and Android mobile game development and used for games such as Pokémon Go. It is considered easy to use for beginner developers and is popular for indie game development.
+[^9]: Unity is a cross-platform game engine developed by Unity Technologies. The engine support a variety of desktop, mobile, console and virtual reality platforms. It is particularly popular for iOS and Android mobile game development and used for games such as Pokémon Go. It is considered easy to use for beginner developers and is popular for indie game development.
 
-[^5]: SolidWorks is a solid modeling computer-aided design and computer-aided engineering computer program published by Dassault Systèmes, that runs primarily on Microsoft Windows.
-
-[^6]: An innovative programming school based in Vierzon, France.
-
-[^7]: The B3 is an old factory that used to house the Société Française(a company that made tractors), now this building has been restored to contain Algosup, the CNAM, a start-up incubator and a connected campus.
-
-[^8]: FBX (Filmbox) is a proprietary file format ( .fbx ) developed by Kaydara and owned by Autodesk since 2006. It is used to provide interoperability between digital content creation applications. FBX is also part of Autodesk Gameware, a series of video game middleware.
-
-[^9]: An MLT file is a project created by Meltytech Shotcut, an open source video editor. It contains project settings in XML format, which includes information about media imported in the project, media placed on the timeline, effects applied to the media, and video and audio properties.
-
-[^10]: An OBJ file is a standard 3D image format that can be exported and opened by various 3D image editing programs. It contains a three-dimensional object, which includes 3D coordinates, texture maps, polygonal faces, and other object information. OBJ files may also store references to one or more .
+[^10]: SolidWorks is a solid modeling computer-aided design and computer-aided engineering computer program published by Dassault Systèmes, that runs primarily on Microsoft Windows.
 
 [^11]: Non Playable Character: A virtual avatar that you can interact with. This character will be controlled by the game itself.
