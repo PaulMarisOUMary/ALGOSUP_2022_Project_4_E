@@ -116,11 +116,24 @@ Those interactions should be realistic and realistic enough to be used in real l
 
 First of all, the user will be placed in a personae selected from this list:
 - Student [Léo Chartier]
+  - Can unlock project rooms and classrooms
 - Staff [Franck Jeannin]
+  - Has access to everything
 - Professor [Sebastien Goisbeault]
+  - Can unlock project rooms and classrooms
+  - Has access to the copy machine room
 - Investor [Éric Larchevêque]
+  - Does not have a card
+  - Cannot unlock doors by themselves
+  - Requires Francks's NPC[^11]
 - Visitor [Bénédicte de Choulot]
+  - Does not have a card
+  - Cannot unlock doors by themselves
+  - Requires a staff or student NPC
 - Handicapped person with reduced mobility (wheelchair) [Stephen Hawking]
+  - Modifier combined with one of the previous roles
+  - Cannot use the stairs
+  - Has a special access to the elevator
 
 Then, since we will simulate reality, we are going to implement physics features including gravity, solid walls, and a day/night cycle.
 
@@ -158,3 +171,5 @@ The included controllers with the Quest 2 are the third generation Oculus Touch 
 [^9]: An MLT file is a project created by Meltytech Shotcut, an open source video editor. It contains project settings in XML format, which includes information about media imported in the project, media placed on the timeline, effects applied to the media, and video and audio properties.
 
 [^10]: An OBJ file is a standard 3D image format that can be exported and opened by various 3D image editing programs. It contains a three-dimensional object, which includes 3D coordinates, texture maps, polygonal faces, and other object information. OBJ files may also store references to one or more .
+
+[^11]: Non Playable Character: A virtual avatar that you can interact with. This character will be controlled by the game itself.
