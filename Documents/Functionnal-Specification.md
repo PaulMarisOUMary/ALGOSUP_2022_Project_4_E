@@ -25,7 +25,7 @@ Team: _Paul MARIS, Clément CATON, Laurent BOUQUIN, Florent HUREAUX, Léo CHARTI
 
 # Overview
 
-Our project is based on Virtual Reality (VR)[^0]. We have to use it to simulate a typical day at Algosup[^1] when it will be based at the B3[^2].
+Our project is based on Virtual Reality (VR)[^0]. We have to ensure the provided model of the Algosup[^1] premises at the B3[^2] will correspond to the school needs and later use it to simulate a typical day.
 
 <br>
 
@@ -36,31 +36,33 @@ Our project is based on Virtual Reality (VR)[^0]. We have to use it to simulate 
 | ALGOSUP              | Customers       |
 |                      | Architect       |
 | Sébastien GOISBEAULT | Tech consultant |
-| Paul MARIS           | Project manager |
-| Clément CATON        | Tech lead       |
-| Laurent BOUQUIN      | Team member     |
-| Florent HUREAUX      | Team member     |
-| Léo CHARTIER         | Team member     |
-| Pierre GORIN         | Team member     |
+| Paul      MARIS      | Project manager |
+| Clément   CATON      | Tech lead       |
+| Laurent   BOUQUIN    | Team member     |
+| Florent   HUREAUX    | Team member     |
+| Léo       CHARTIER   | Team member     |
+| Pierre    GORIN      | Team member     |
 
 <br>
 
 ## 2. Project target
 
-The goal of this project is to give life to the 3D model of the school in VR. This means we need to create interactivity with the components around the school in order to fully experience a day in the life of a school member.
+The goal of this project is to furnish the building with furniture that would be used later in real life.
 
-One of our goal is to furnish the building and simulate things such as doors, classes, general daily life and many other things that we have to imagine.
+Later we will have to give life to the 3D model of the school in VR. This means we need to create interactivity with the components around the school in order to fully experience a day in the life of a school member.
+This means simulating things such as doors, classes, general daily life and many other things that we have to imagine.
 
 <br>
 
 ## 3. Project and scope
 
-We need to have realistic and testable scenarios about access control, room usage, circulation, signage, furniture, storage, plugs, toilets, etc.
 The virtual setup needs to be as close as possible to the real setup.
+We need to have realistic and testable scenarios about access control, room usage, circulation, signage, furniture, storage, plugs, toilets, and as many details as possible.
 
-This, we need to obey the laws of physics in the virtual world, without super powers meaning you cannot walk across walls, fly, etc.
+This means, we need to obey the laws of physics in the virtual world, without super powers meaning you cannot walk across walls, fly, etc.
 
 However we do not need to create the 3D model of the structure, given to us by the architect.
+We are only meant to verify its content and add furniture.
 
 <br>
 
@@ -135,7 +137,7 @@ First of all, the user will be placed in a personae selected from this list:
   - Cannot use the stairs
   - Has a special access to the elevator
 
-Then, since we will simulate reality, we are going to implement physics features including gravity, solid walls, and a day/night cycle.
+Then, since we will simulate reality, we are going to implement physics features including gravity, solid walls, and time flow.
 
 On top of that will be different items and objects that the user will interact with. Those will be:
 - Furniture (+electric plugs, toilets...)
