@@ -13,6 +13,10 @@
   - [6. Use cases](#6-use-cases)
   - [7. Requirements specs](#7-requirements-specs)
   - [8. Solution overview](#8-solution-overview)
+  - [9. User flow](#9-user-flow)
+    - [Student](#student)
+    - [Staff](#staff)
+    - [Professor](#professor)
 
 </details>
 <br>
@@ -117,21 +121,26 @@ Those interactions should be realistic and realistic enough to be used in real l
 ## 8. Solution overview
 
 First of all, the user will be placed in a personae selected from this list:
-- Student [Léo Chartier]
+- Student [Cléa Molette]
   - Can unlock project rooms and classrooms
 - Staff [Franck Jeannin]
   - Has access to everything
-- Professor [Sebastien Goisbeault]
+- Professor [Guy Taréro]
   - Can unlock project rooms and classrooms
   - Has access to the copy machine room
+- Janitor [Aude Jaajvelle]
+  - Can unlock every room other than the server room and stocks
 - Investor [Éric Larchevêque]
   - Does not have a card
   - Cannot unlock doors by themselves
   - Requires Francks's NPC[^11]
-- Visitor [Bénédicte de Choulot]
+- Visitor [Gus Hammond]
   - Does not have a card
   - Cannot unlock doors by themselves
   - Requires a staff or student NPC
+- Smoker [Brandon des Veaux]
+  - Special student
+  - Needs to go outside at every break for at least 10 minutes
 - Handicapped person with reduced mobility (wheelchair) [Stephen Hawking]
   - Modifier combined with one of the previous roles
   - Cannot use the stairs
@@ -148,6 +157,40 @@ On top of that will be different items and objects that the user will interact w
 - Signage on doors (+schedules) and around the school
 
 All of this will be used to recreate different situations of the daily life at school with courses, lunch time or fire exercises.
+
+<br>
+
+## 9. User flow
+
+To accommodate the player and make the experience more realistic, there will be NPCs around the school. Their flow of actions is described in this section.
+
+### Student
+
+- The students NPCs will be assigned to a room:
+  - Project room
+  - Class room
+  - English room
+  - Soft skills room
+- They will stay in their room and act as if studying
+- At random, a student may leave the room and go to the toilets
+- When break time will be called, some students will go to the toilets and the others will wander around the place
+
+### Staff
+
+- The staff NCP will be split between their respective rooms:
+  - Reception
+  - 3 offices
+  - 2 meeting rooms
+  - Copy machines room
+- They will stay in their room and act as if working
+- At random, a staff member may leave the room and go to the toilets
+- Break time does not affect them
+
+### Professor
+
+- There will be one professor for each classroom with students in them
+- They will stay in the classroom until the end of the day or lunch time
+- They may differ in soft skill rooms such as having an additional teacher
 
 <br><br>
 
