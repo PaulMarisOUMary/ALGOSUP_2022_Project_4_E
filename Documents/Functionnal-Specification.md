@@ -8,12 +8,11 @@
   - [1. Stakeholders](#1-stakeholders)
   - [2. Project target](#2-project-target)
   - [3. Project and scope](#3-project-and-scope)
-  - [4. Resources](#4-resources)
-  - [5. Risks and assumptions](#5-risks-and-assumptions)
-  - [6. Use cases](#6-use-cases)
-  - [7. Requirements specs](#7-requirements-specs)
-  - [8. Solution overview](#8-solution-overview)
-  - [9. User flow](#9-user-flow)
+  - [4. Risks and assumptions](#4-risks-and-assumptions)
+  - [5. Requirements specs](#5-requirements-specs)
+  - [6. Solution overview](#6-solution-overview)
+  - [7. Use cases](#7-use-cases)
+  - [8. User flow](#8-user-flow)
     - [Student](#student)
     - [Staff](#staff)
     - [Professor](#professor)
@@ -70,23 +69,7 @@ We are only meant to verify its content and add furniture.
 
 <br>
 
-## 4. Resources
-
-At out disposal, we are provided with the 3D file produced by the architect of the building in the BIMx[^3] format, as well as 2D maps of each floor (PDF). For practicality reasons, we will convert the 3D map in one of the following format: FBX[^4], MLT[^5] & OBJ[^6].
-
-We will use an Oculus Quest 2[^7] to support our simulation.
-
-We will also use the following softwares:
-- Visual Studio[^8]
-- Unity[^9]
-- Oculus
-- Solidworks[^10]
-
-For the furniture, we can freely use the models on Unity's Asset Store or from other models libraries.
-
-<br>
-
-## 5. Risks and assumptions
+## 4. Risks and assumptions
 
 One of the major risk for this project is the initial 3D model of the building. Even though we are provided with it by the architect who is a professional, we cannot assume it to be perfect and the model may not be compatible with our softwares.
 
@@ -96,19 +79,7 @@ Compatibility between all headsets is not guaranteed.
 
 <br>
 
-## 6. Use cases
-
-The reason for this project is that the school's staff want to preview the final build before the end of the constructions. This will allow them to adapt for the future such as buying new furniture.
-
-This will also allow them for marketing purposes and promote the school more easily.
-
-Finally, since the simulation will be only and not restricted to the Algosup building, anyone with a VR headset will be able to virtually visit the new school.
-This will be useful for potential students far away from their location (even abroad).
-Moreover, with the Covid pandemic, this will also make visits easier by not having physical contact and reducing the probability of infection.
-
-<br>
-
-## 7. Requirements specs
+## 5. Requirements specs
 
 The user should be able to move in a 3D space inside the school and interact with the different components.
 Those interactions should be possible using a VR headset and controllers.
@@ -118,27 +89,30 @@ Those interactions should be realistic and realistic enough to be used in real l
 
 <br>
 
-## 8. Solution overview
+## 6. Solution overview
 
-First of all, the user will be placed in a personae selected from this list:
-- Student [Cléa Molette]
+First of all, the user will be placed in a persona selected from this list:
+- Student [Brandon des Veaux / Cléa Molette]
   - Can unlock project rooms and classrooms
-- Staff [Franck Jeannin]
+- Staff [Franck Jeannin / Natacha Boez]
   - Has access to everything
-- Professor [Guy Taréro]
+- Professor [Guy Taréro / {TBD}]
   - Can unlock project rooms and classrooms
   - Has access to the copy machine room
-- Janitor [Aude Jaajvelle]
+- Janitor [{TBD} / Aude Jaajvelle]
   - Can unlock every room other than the server room and stocks
-- Investor [Éric Larchevêque]
+- Investor [Éric Larchevêque / {TBD}]
   - Does not have a card
   - Cannot unlock doors by themselves
   - Requires Francks's NPC[^11]
-- Visitor [Gus Hammond]
+- Visitor [Gus Hammond / {TBD}]
   - Does not have a card
   - Cannot unlock doors by themselves
   - Requires a staff or student NPC
-- Smoker [Brandon des Veaux]
+
+Additional modifiers can be applied to a persona:
+- Man / Woman
+- Smoker
   - Special student
   - Needs to go outside at every break for at least 10 minutes
 - Handicapped person with reduced mobility (wheelchair) [Stephen Hawking]
@@ -153,14 +127,27 @@ On top of that will be different items and objects that the user will interact w
 - Unlocking doors with a magnetic card
 - Lights with motion sensors and switches
 - Functional whiteboards
-- The elevator for the handicapped personae
+- The elevator for the handicapped persona
 - Signage on doors (+schedules) and around the school
 
 All of this will be used to recreate different situations of the daily life at school with courses, lunch time or fire exercises.
 
 <br>
 
-## 9. User flow
+## 7. Use cases
+
+<!--
+TODO
+
+Use cases = scenarios
+  -> make more differences (gender, vehicle...)
+  -> Do we have enough toilets, long enough break time... ?
+-->
+
+<br>
+
+
+## 8. User flow
 
 To accommodate the player and make the experience more realistic, there will be NPCs around the school. Their flow of actions is described in this section.
 
