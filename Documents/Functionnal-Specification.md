@@ -128,7 +128,7 @@ Then, since we will simulate reality, we are going to implement physics features
 
 On top of that will be different items and objects that the user will interact with. Those will be:
 - Furniture (+electric plugs, toilets...)
-- Unlocking doors with a magnetic card
+- Unlocking doors with a magnetic card or phone via bluetooth
 - Lights with motion sensors and switches
 - Functional whiteboards
 - The elevator for the handicapped persona
@@ -142,20 +142,21 @@ All of this will be used to recreate different situations of the daily life at s
 
 To simulate the school life from the best of our abilities, we will have to implement different characters. The following is a table of all possible combinations that will be implemented.
 
-| Name    | Roles      | Gender | Vehicle    | Meal      | Handicap      | Smoker |
-| ------- | ---------- | ------ | ---------- | --------- | ------------- | ------ |
-| Brandon | Student    | Male   | Bicycle    | Take Away | —             | Smoker |
-| Pierre  | Student    | Male   | By foot    | Outdoor   | —             | Smoker |
-| Léo     | Student    | Male   | By foot    | Indoor    | —             | —      |
-| Cléa    | Student    | Female | Carsharing | Indoor    | Crutches      | —      |
-| Franck  | Staff      | Male   | Car        | Indoor    | —             | —      |
-| Natacha | Staff      | Female | Car        | Indoor    | —             | —      |
-| Julie   | Staff      | Female | Bicycle    | Indoor    | —             | —      |
-| Eric L. | Investor   | Male   | Car        | Outdoor   | —             | —      |
-| Guy     | Intervener | Male   | Carsharing | Indoor    | Rolling Chair | —      |
-| Aude    | Janitor    | Female | Car        | —         | —             | —      |
-| Gus     | Visitor    | Male   | Car        | —         | —             | —      |
-
+| Name    | Roles      | Gender     | Vehicle    | Meal      | Handicap      | Smoker |
+| ------- | ---------- | ---------- | ---------- | --------- | ------------- | ------ |
+| Brandon | Student    | Male       | Bicycle    | Take Away | —             | Smoker |
+| Pierre  | Student    | Male       | By foot    | Outdoor   | —             | Smoker |
+| Léo     | Student    | Male       | By foot    | Indoor    | —             | —      |
+| Malo    | Student    | Male       | Scooter    | Indoor    | —             | —      |
+| Cléa    | Student    | Female     | Carsharing | Indoor    | Crutches      | —      |
+| Sacha   | Student    | Non binary | Scooter    | Take Away | —             | Smoker |
+| Franck  | Staff      | Male       | Car        | Indoor    | —             | —      |
+| Natacha | Staff      | Female     | Car        | Indoor    | —             | —      |
+| Julie   | Staff      | Female     | Bicycle    | Indoor    | —             | —      |
+| Eric L. | Investor   | Male       | Car        | Outdoor   | —             | —      |
+| Guy     | Intervener | Male       | Carsharing | Indoor    | Rolling Chair | —      |
+| Aude    | Janitor    | Female     | Car        | —         | —             | —      |
+| Gus     | Visitor    | Male       | Car        | —         | —             | —      |
 
 <br>
 
