@@ -37,7 +37,6 @@ Our project is based on Virtual Reality (VR)[^0]. We have to ensure the provided
 | Person/Organization  | Role            |
 | -------------------- | --------------- |
 | ALGOSUP              | Customers       |
-
 | Sébastien GOISBEAULT | Tech consultant |
 | Paul      MARIS      | Project manager |
 | Clément   CATON      | Tech lead       |
