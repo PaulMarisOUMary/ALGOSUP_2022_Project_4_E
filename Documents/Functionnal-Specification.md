@@ -37,7 +37,7 @@ Our project is based on Virtual Reality (VR)[^0]. We have to ensure the provided
 | Person/Organization  | Role            |
 | -------------------- | --------------- |
 | ALGOSUP              | Customers       |
-|                      | Architect       |
+
 | Sébastien GOISBEAULT | Tech consultant |
 | Paul      MARIS      | Project manager |
 | Clément   CATON      | Tech lead       |
@@ -64,14 +64,16 @@ We need to have realistic and testable scenarios about access control, room usag
 
 This means, we need to obey the laws of physics in the virtual world, without super powers meaning you cannot walk across walls, fly, etc.
 
-However we do not need to create the 3D model of the structure, given to us by the architect.
+However we do not need to create the 3D model of the structure.
+
 We are only meant to verify its content and add furniture.
 
 <br>
 
 ## 4. Risks and assumptions
 
-One of the major risk for this project is the initial 3D model of the building. Even though we are provided with it by the architect who is a professional, we cannot assume it to be perfect and the model may not be compatible with our softwares.
+One of the major risk for this project is the initial 3D model of the building. We cannot assume the provided model to be perfect and it may not be compatible with our softwares.
+
 
 Since this model is a major corner-stone, any problem with the original file may cause either a lot of delay in the final delivery or reduce the quality of the other features.
 
@@ -152,8 +154,9 @@ To simulate the school life from the best of our abilities, we will have to impl
 | Julie   | Staff      | Female | Bicycle    | Indoor    | —             | —      |
 | Eric L. | Investor   | Male   | Car        | Outdoor   | —             | —      |
 | Guy     | Intervener | Male   | Carsharing | Indoor    | Rolling Chair | —      |
-| Aude    | Janitor    | Female | Car        |           | —             | —      |
-| Gus     | Visitor    | Male   | Car        |           | —             | —      |
+| Aude    | Janitor    | Female | Car        | —         | —             | —      |
+| Gus     | Visitor    | Male   | Car        | —         | —             | —      |
+
 
 <br>
 
