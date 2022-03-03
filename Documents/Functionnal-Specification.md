@@ -92,30 +92,33 @@ Those interactions should be realistic and realistic enough to be used in real l
 ## 6. Solution overview
 
 First of all, the user will be placed in a persona selected from this list:
-- Student [Brandon des Veaux / Cléa Molette]
+- Student
   - Can unlock project rooms and classrooms
-- Staff [Franck Jeannin / Natacha Boez]
+- Staff
   - Has access to everything
-- Professor [Guy Taréro / {TBD}]
+- Professor
   - Can unlock project rooms and classrooms
   - Has access to the copy machine room
-- Janitor [{TBD} / Aude Jaajvelle]
+- Janitor
   - Can unlock every room other than the server room and stocks
-- Investor [Éric Larchevêque / {TBD}]
+- Investor
   - Does not have a card
   - Cannot unlock doors by themselves
-  - Requires Francks's NPC[^11]
-- Visitor [Gus Hammond / {TBD}]
+  - Requires Franck's NPC[^11]
+- Visitor
   - Does not have a card
   - Cannot unlock doors by themselves
   - Requires a staff or student NPC
+- Other employee
+  - Works on the second floor
+  - Does not have access to any of the ground level 
 
 Additional modifiers can be applied to a persona:
 - Man / Woman
 - Smoker
   - Special student
   - Needs to go outside at every break for at least 10 minutes
-- Handicapped person with reduced mobility (wheelchair) [Stephen Hawking]
+- Handicapped person with reduced mobility
   - Modifier combined with one of the previous roles
   - Cannot use the stairs
   - Has a special access to the elevator
@@ -136,16 +139,23 @@ All of this will be used to recreate different situations of the daily life at s
 
 ## 7. Use cases
 
-<!--
-TODO
+To simulate the school life from the best of our abilities, we will have to implement different characters. The following is a table of all possible combinations that will be implemented.
 
-Use cases = scenarios
-  -> make more differences (gender, vehicle...)
-  -> Do we have enough toilets, long enough break time... ?
--->
+| Name    | Roles      | Gender | Vehicle    | Meal      | Handicap      | Smoker |
+| ------- | ---------- | ------ | ---------- | --------- | ------------- | ------ |
+| Brandon | Student    | Male   | Bicycle    | Take Away | —             | Smoker |
+| Pierre  | Student    | Male   | By foot    | Outdoor   | —             | Smoker |
+| Léo     | Student    | Male   | By foot    | Indoor    | —             | —      |
+| Cléa    | Student    | Female | Carsharing | Indoor    | Crutches      | —      |
+| Franck  | Staff      | Male   | Car        | Indoor    | —             | —      |
+| Natacha | Staff      | Female | Car        | Indoor    | —             | —      |
+| Julie   | Staff      | Female | Bicycle    | Indoor    | —             | —      |
+| Eric L. | Investor   | Male   | Car        | Outdoor   | —             | —      |
+| Guy     | Intervener | Male   | Carsharing | Indoor    | Rolling Chair | —      |
+| Aude    | Janitor    | Female | Car        |           | —             | —      |
+| Gus     | Visitor    | Male   | Car        |           | —             | —      |
 
 <br>
-
 
 ## 8. User flow
 
