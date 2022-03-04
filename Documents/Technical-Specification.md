@@ -63,6 +63,8 @@
 
 #### c. Context or Background
 
+This project was made in order to find some issues that we can solve before building the B3 building. It's worth doing because it will allowed ALGOSUP to correct potential issues before going in which will result in a gain of time and money.
+
 #### d. Goals or Product and Technical Requirements
 
 #### e. Non-Goals or Out of Scope
@@ -75,7 +77,11 @@
 
 #### a. Current or Existing Solution / Design
 
+Right now, we are provided with the 3D file produced by the architect of the building in the BIMx format, as well as 2D maps of each floor (PDF).
+
 #### b. Suggested or Proposed Solution / Design 
+
+In order to use it on Unity, we will convert the 3D map in one of the following format: FBX, MLT & OBJ.
 
 #### c. Test Plan
 
