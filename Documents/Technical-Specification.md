@@ -36,6 +36,19 @@ Technical Specification **March 2022**
 
 ## 5.Ressource
 
+At out disposal, we are provided with the 3D file produced by the architect of the building in the BIMx[^3] format, as well as 2D maps of each floor (PDF). For practicality reasons, we will convert the 3D map in one of the following format: FBX[^4], MLT[^5] & OBJ[^6].
+
+ We will use an Oculus Quest 2[^7] to support our simulation.
+
+ We will also use the following softwares:
+ - Visual Studio[^8]
+ - Unity[^9]
+ - Oculus
+ - Solidworks[^10]
+
+ For the furniture, we can freely use the models on Unity's Asset Store or from other models libraries.
+
+ <br>
 
 ## 6.Affected Parties
 
