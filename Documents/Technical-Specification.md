@@ -1,7 +1,7 @@
 <!-- doc https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/ -->
 <!-- md gen https://ecotrust-canada.github.io/markdown-toc/-->
 
-# Techincal Specification
+# Technical Specification
 
 - [1. Front matter](#1-front-matter)
 - [2. Introduction](#2-introduction)
@@ -42,19 +42,18 @@
 - [7. Deliberation](#7-deliberation)
     + [a. Discussion](#a-discussion)
     + [b. Open Questions](#b-open-questions)
-- [End Matter](#end-matter)
+- [8. End Matter](#8-end-matter)
     + [a. Related Work](#a-related-work)
     + [b. References](#b-references)
     + [c. Acknowledgement](#c-acknowledgement)
 
 ## 1. Front matter
-- Title 
-- Author(s)
-- Team
-- Reviewer(s)
-- Created on
-- Last updated
-- Epic, ticket, issue, or task tracker reference link
+- Title: Virtual Reality of the Future B3
+- Author(s): Clément CATON, Florent HUREAUX, Laurent BOUQUIN, Léo CHARTIER, Paul MARIS, Pierre GORIN
+- Team: ALGOSUP_2022_PROJECT_4_E
+- Reviewers(s): Team/Franck JEANNIN
+- Created on: 04/03/2022
+- Last updated: 04/03/2022
 
 ## 2. Introduction
 
@@ -132,7 +131,7 @@
 
 #### b. Open Questions
 
-## End Matter
+## 8. End Matter
 
 #### a. Related Work
 
