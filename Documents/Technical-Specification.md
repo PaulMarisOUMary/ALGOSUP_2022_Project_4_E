@@ -125,9 +125,23 @@ In order to use it on Unity, we will convert the 3D map in one of the following 
 
 #### a. Work estimates and timelines
 
+| Task   | Ressource      |  Estimated Time    |
+| ------- | ---------- | ---------- |
+| Write functionnal specification | Github/Stack Overflow   |   1 week   |
+| Write technical specification  | Github/Stack Overflow    | 1 week   |
+
 #### b. Prioritization
 
+In the first two weeks, we prioritized writing the functionnal specification and the technical specification to make sure everything was understood and to simplify the work. Next, we're going to make all the physics of the 3D world and implement all the object we need. We'll also make the NPC afterward and multiple persona that the users can incarnate. Then in the two last week we're gonna debug, finish what's missing and prepare for the oral exam.
+
 #### c. Milestones
+
+- Functionnal specification
+- Technical specification
+- Physics, animations, objects implementation
+- First persona
+- NPC 
+- Oral exam
 
 #### d. Future Work
 
@@ -143,4 +157,4 @@ In order to use it on Unity, we will convert the 3D map in one of the following 
 
 #### b. References
 
-#### c. Acknoledgements
+#### c. Acknowledgement
