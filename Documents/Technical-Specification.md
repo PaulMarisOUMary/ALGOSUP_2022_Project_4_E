@@ -1,64 +1,141 @@
-# Project 4: Virtual Reality - Group E
+<!-- doc https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/ -->
+<!-- md gen https://ecotrust-canada.github.io/markdown-toc/-->
 
-<details>
-<summary><strong id="table_of_contents">Table of Contents</strong></summary>
+# Techincal Specification
 
-- [Project 4: Virtual Reality - Group E](#project-4-virtual-reality---group-e)
-- [Project Description](#Project-Description)
-- [Project Scope](#Project-Scope)
-- [High Level Requirements](#High-Level-Requirements)
-- [Deliverable](#Deliverable)
-- [Ressource](#Ressource)
-- [Affected Parties](#Affected-Parties)
-- [Affected Business Processes or Systems](#Affected-Business-Processes-or-Systems)
-- [Specific Exclusions from Scope](#Specific-Exclusions-from-Scope)
-- [High-Level Timeline/Schedule](#High-Level-Timeline/Schedule)
+- [1. Front matter](#1-front-matter)
+- [2. Introduction](#2-introduction)
+    + [a. Overview, Problem Description, Summary, or Abstract](#a-overview--problem-description--summary--or-abstract)
+    + [b. Glossary or Terminology](#b-glossary-or-terminology)
+    + [c. Context or Background](#c-context-or-background)
+    + [d. Goals or Product and Technical Requirements](#d-goals-or-product-and-technical-requirements)
+    + [e. Non-Goals or Out of Scope](#e-non-goals-or-out-of-scope)
+    + [f. Future Goals](#f-future-goals)
+    + [g. Assumptions](#g-assumptions)
+- [3. Solutions](#3-solutions)
+    + [a. Current or Existing Solution / Design](#a-current-or-existing-solution---design)
+    + [b. Suggested or Proposed Solution / Design](#b-suggested-or-proposed-solution---design)
+    + [c. Test Plan](#c-test-plan)
+    + [d. Monitoring and Alerting Plan](#d-monitoring-and-alerting-plan)
+    + [e. Release / Roll-out and Deployment Plan](#e-release---roll-out-and-deployment-plan)
+    + [f. Rollback Plan](#f-rollback-plan)
+    + [g. Alternate Solutions / Designs](#g-alternate-solutions---designs)
+- [4. Further Considerations](#4-further-considerations)
+    + [a. Impact on other teams](#a-impact-on-other-teams)
+    + [b. Third-party services and platforms considerations](#b-third-party-services-and-platforms-considerations)
+    + [c. Cost analysis](#c-cost-analysis)
+    + [d. Security considerations](#d-security-considerations)
+    + [e. Privacy considerations](#e-privacy-considerations)
+    + [f. Regional considerations](#f-regional-considerations)
+    + [g. Accessibility considerations](#g-accessibility-considerations)
+    + [h. Operational considerations](#h-operational-considerations)
+    + [i. Risks](#i-risks)
+    + [j. Support considerations](#j-support-considerations)
+- [5. Success Evaluation](#5-success-evaluation)
+    + [a. Impact](#a-impact)
+    + [b. Metrics](#b-metrics)
+- [Works](#works)
+    + [a. Work estimates and timelines](#a-work-estimates-and-timelines)
+    + [b. Prioritization](#b-prioritization)
+    + [c. Milestones](#c-milestones)
+    + [d. Future Work](#d-future-work)
+- [7. Deliberation](#7-deliberation)
+    + [a. Discussion](#a-discussion)
+    + [b. Open Questions](#b-open-questions)
+- [End Matter](#end-matter)
+    + [a. Related Work](#a-related-work)
+    + [b. References](#b-references)
+    + [c. Acknowledgement](#c-acknowledgement)
 
+## 1. Front matter
+- Title 
+- Author(s)
+- Team
+- Reviewer(s)
+- Created on
+- Last updated
+- Epic, ticket, issue, or task tracker reference link
 
-</details>
+## 2. Introduction
 
-Technical Specification **March 2022**  
+#### a. Overview, Problem Description, Summary, or Abstract
 
+#### b. Glossary or Terminology
 
-# Overview
+#### c. Context or Background
 
-## 1.Project Description
+#### d. Goals or Product and Technical Requirements
 
+#### e. Non-Goals or Out of Scope
 
-## 2.Project Scope
+#### f. Future Goals
 
+#### g. Assumptions
 
-## 3.High-Level Requirements
+## 3. Solutions
 
+#### a. Current or Existing Solution / Design
 
-## 4.Deliverables
+#### b. Suggested or Proposed Solution / Design 
 
+#### c. Test Plan
 
-## 5.Ressource
+#### d. Monitoring and Alerting Plan 
 
-At out disposal, we are provided with the 3D file produced by the architect of the building in the BIMx[^3] format, as well as 2D maps of each floor (PDF). For practicality reasons, we will convert the 3D map in one of the following format: FBX[^4], MLT[^5] & OBJ[^6].
+#### e. Release / Roll-out and Deployment Plan
 
- We will use an Oculus Quest 2[^7] to support our simulation.
+#### f. Rollback Plan
 
- We will also use the following softwares:
- - Visual Studio[^8]
- - Unity[^9]
- - Oculus
- - Solidworks[^10]
+#### g. Alternate Solutions / Designs
 
- For the furniture, we can freely use the models on Unity's Asset Store or from other models libraries.
+## 4. Further Considerations
 
- <br>
+#### a. Impact on other teams
 
-## 6.Affected Parties
+#### b. Third-party services and platforms considerations
 
+#### c. Cost analysis
 
-## 7.Affected Business Processes or Systems
+#### d. Security considerations
 
+#### e. Privacy considerations
 
-## 8.Specific Exclusions from Scope
+#### f. Regional considerations
 
+#### g. Accessibility considerations
 
-## 9.High-Level-Timeline/Schedule
+#### h. Operational considerations
 
-**Schedule :**
+#### i. Risks
+
+#### j. Support considerations
+
+## 5. Success Evaluation
+
+#### a. Impact
+
+#### b. Metrics
+
+## Works
+
+#### a. Work estimates and timelines
+
+#### b. Prioritization
+
+#### c. Milestones
+
+#### d. Future Work
+
+## 7. Deliberation
+
+#### a. Discussion
+
+#### b. Open Questions
+
+## End Matter
+
+#### a. Related Work
+
+#### b. References
+
+#### c. Acknoledgements
