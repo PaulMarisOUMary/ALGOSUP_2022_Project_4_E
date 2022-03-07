@@ -15,7 +15,7 @@
   - [8. User flow](#8-user-flow)
     - [Student](#student)
     - [Staff](#staff)
-    - [Professor](#professor)
+    - [Participant / Speaker](#participant--speaker)
 
 </details>
 <br>
@@ -97,7 +97,7 @@ First of all, the user will be placed in a persona selected from this list:
   - Can unlock project rooms and classrooms
 - Staff
   - Has access to everything
-- Professor
+- Participant / Speaker (= Teacher)
   - Can unlock project rooms and classrooms
   - Has access to the copy machine room
 - Janitor
@@ -142,21 +142,21 @@ All of this will be used to recreate different situations of the daily life at s
 
 To simulate the school life from the best of our abilities, we will have to implement different characters. The following is a table of all possible combinations that will be implemented.
 
-| Name    | Roles      | Gender     | Vehicle    | Meal      | Handicap      | Smoker |
-| ------- | ---------- | ---------- | ---------- | --------- | ------------- | ------ |
-| Brandon | Student    | Male       | Bicycle    | Take Away | —             | Smoker |
-| Pierre  | Student    | Male       | By foot    | Outdoor   | —             | Smoker |
-| Léo     | Student    | Male       | By foot    | Indoor    | —             | —      |
-| Malo    | Student    | Male       | Scooter    | Indoor    | —             | —      |
-| Cléa    | Student    | Female     | Carsharing | Indoor    | Crutches      | —      |
-| Sacha   | Student    | Non binary | Scooter    | Take Away | —             | Smoker |
-| Franck  | Staff      | Male       | Car        | Indoor    | —             | —      |
-| Natacha | Staff      | Female     | Car        | Indoor    | —             | —      |
-| Julie   | Staff      | Female     | Bicycle    | Indoor    | —             | —      |
-| Eric L. | Investor   | Male       | Car        | Outdoor   | —             | —      |
-| Guy     | Intervener | Male       | Carsharing | Indoor    | Rolling Chair | —      |
-| Aude    | Janitor    | Female     | Car        | —         | —             | —      |
-| Gus     | Visitor    | Male       | Car        | —         | —             | —      |
+| Name    | Roles    | Gender     | Vehicle    | Meal      | Handicap      | Smoker |
+| ------- | -------- | ---------- | ---------- | --------- | ------------- | ------ |
+| Brandon | Student  | Male       | Carsharing | Take Away | —             | Smoker |
+| Pierre  | Student  | Male       | By foot    | Outdoor   | —             | Smoker |
+| Léo     | Student  | Male       | By foot    | Indoor    | —             | —      |
+| Malo    | Student  | Male       | Scooter    | Indoor    | —             | —      |
+| Cléa    | Student  | Female     | Carsharing | Indoor    | Crutches      | —      |
+| Sacha   | Student  | Non binary | Scooter    | Take Away | —             | Smoker |
+| Franck  | Staff    | Male       | Car        | Indoor    | —             | —      |
+| Natacha | Staff    | Female     | Car        | Indoor    | —             | —      |
+| Julie   | Staff    | Female     | Bicycle    | Indoor    | —             | —      |
+| Eric L. | Investor | Male       | Car        | Outdoor   | —             | —      |
+| Guy     | Speaker  | Male       | Carsharing | Indoor    | Rolling Chair | —      |
+| Aude    | Janitor  | Female     | Bicycle    | —         | —             | —      |
+| Gus     | Visitor  | Male       | Car        | —         | —             | —      |
 
 <br>
 
@@ -166,31 +166,64 @@ To accommodate the player and make the experience more realistic, there will be 
 
 ### Student
 
-- The students NPCs will be assigned to a room:
-  - Project room
-  - Class room
-  - English room
-  - Soft skills room
-- They will stay in their room and act as if studying
-- At random, a student may leave the room and go to the toilets
-- When break time will be called, some students will go to the toilets and the others will wander around the place
+#### 8:30am - 9:00am: Arrival
+
+The students arriving at the school. To simulate this, we will have students arrive in batches of 5 minutes created with the following probabilities:
+
+| 8:30 | 8:35 | 8:40 | 8:45 | 8:50 | 8:55 | Late |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| 1.5% | 4%   | 8%   | 16%  | 50%  | 20%  | 0.5% |
+
+#### 9:00am - 10:45am: Class
+Students will have class in either programming, english, soft skills or project time.
+This will be determined prior to the launch of the simulation with the probabilities given as follows:
+
+Students have a 20% chance to be on soft-skills for the entire day.
+Otherwise, for each half-day, they have a 25% chance to be in a programming course, and a 25% chance to be in an English course. The rest is project time.
+
+Note: At random, a student may leave the room and go to the toilets.
+
+#### 10:45am - 11:00am: Break
+Each student will have a 50% chance to go to the toilet.
+Every smoker will go outside for between 5 and 10 minutes.
+
+#### 11:00am - 12:30pm: Class
+Continuation of the first morning part.
+
+#### 12:30pm - 1:30pm: Lunch
+According to their characteristics, the students will either go out or eat what they brought in the break room.
+
+#### 1:30pm - 3:15pm: Class
+Either continuation of the morning courses or new ones.
+
+#### 3:15pm - 3:30pm: Break
+Same mechanism as for the morning break.
+
+#### 3:30pm - 5:00pm: Class
+Continuation of the first afternoon part.
 
 ### Staff
 
-- The staff NCP will be split between their respective rooms:
+- Staff will arrive at 8:30am
+- They will be split between their respective rooms:
   - Reception
   - 3 offices
   - 2 meeting rooms
   - Copy machines room
-- They will stay in their room and act as if working
-- At random, a staff member may leave the room and go to the toilets
+- They will mostly stay in their room and act as if working
+- At random, every 30 minutes to 2 hours, a staff member may:
+  - Go around the school and make sure students are studying
+  - Have a reunion (All)
+  - Go to the copier room
+  - Go to the toilets
 - Break time does not affect them
 
-### Professor
+### Participant / Speaker
 
-- There will be one professor for each classroom with students in them
-- They will stay in the classroom until the end of the day or lunch time
-- They may differ in soft skill rooms such as having an additional teacher
+- There will be one speaker for each classroom with students in them
+- They will stay in the classroom until the end of the day or until lunch time
+- During break times, they will go to the bathroom with a 50% probability and go grab a coffee.
+- Differences may happen in soft skill rooms such as having an additional teacher
 
 <br><br>
 
