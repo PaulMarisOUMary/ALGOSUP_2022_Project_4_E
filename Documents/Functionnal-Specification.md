@@ -105,7 +105,7 @@ First of all, the user will be placed in a persona selected from this list:
 - Investor
   - Does not have a card
   - Cannot unlock doors by themselves
-  - Requires Franck's NPC[^11]
+  - Requires Franck's NPC[^3]
 - Visitor
   - Does not have a card
   - Cannot unlock doors by themselves
@@ -234,21 +234,4 @@ Footnotes:
 
 [^2]: The B3 is an old factory that used to house the Société Française(a company that made tractors), now this building has been restored to contain Algosup, the CNAM, a start-up incubator and a connected campus.
 
-[^3]: A BIMx file is a document created by GRAPHISOFT ArchiCAD, an architectural CAD program. It contains a virtual architectural project that includes 3D models and 2D drawing sheets.
-
-[^4]: FBX (Filmbox) is a proprietary file format ( .fbx ) developed by Kaydara and owned by Autodesk since 2006. It is used to provide interoperability between digital content creation applications. FBX is also part of Autodesk Gameware, a series of video game middleware.
-
-[^5]: An MLT file is a project created by Meltytech Shotcut, an open source video editor. It contains project settings in XML format, which includes information about media imported in the project, media placed on the timeline, effects applied to the media, and video and audio properties.
-
-[^6]: An OBJ file is a standard 3D image format that can be exported and opened by various 3D image editing programs. It contains a three-dimensional object, which includes 3D coordinates, texture maps, polygonal faces, and other object information. OBJ files may also store references to one or more .
-
-[^7]: Oculus Quest 2 is a virtual reality headset created by Facebook Technologies. It is the successor to the company's previous headset, the Oculus Quest.
-The included controllers with the Quest 2 are the third generation Oculus Touch controllers.
-
-[^8]: Visual Studio Code is a source-code editor made by Microsoft for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, embedded Git, and more.
-
-[^9]: Unity is a cross-platform game engine developed by Unity Technologies. The engine support a variety of desktop, mobile, console and virtual reality platforms. It is particularly popular for iOS and Android mobile game development and used for games such as Pokémon Go. It is considered easy to use for beginner developers and is popular for indie game development.
-
-[^10]: SolidWorks is a solid modeling computer-aided design and computer-aided engineering computer program published by Dassault Systèmes, that runs primarily on Microsoft Windows.
-
-[^11]: Non Playable Character: A virtual avatar that you can interact with. This character will be controlled by the game itself.
+[^3]: Non Playable Character: A virtual avatar that you can interact with. This character will be controlled by the game itself.
