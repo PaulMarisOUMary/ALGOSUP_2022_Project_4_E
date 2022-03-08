@@ -63,7 +63,7 @@
 
 #### c. Context or Background
 
-This project was made in order to find some issues that we can solve before building the B3 building. It's worth doing because it will allowed ALGOSUP to correct potential issues before going in which will result in a gain of time and money.
+This project was made in order to find some possible issues that we can solve before making the B3 building. It's worth doing because it will allowed ALGOSUP to correct potential issues before going in which will result in a gain of time and money.
 
 #### d. Goals or Product and Technical Requirements
 
