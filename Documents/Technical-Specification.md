@@ -85,6 +85,8 @@ In order to use it on Unity, we will convert the 3D map in one of the following 
 
 #### c. Test Plan
 
+x
+
 #### d. Monitoring and Alerting Plan 
 
 #### e. Release / Roll-out and Deployment Plan
@@ -113,7 +115,18 @@ In order to use it on Unity, we will convert the 3D map in one of the following 
 
 #### i. Risks
 
+There are some risks to take into consideration in this project :
+
+- Deliverable : We can be late. There are a lot to do.
+
+- Materials : We need to take care of the material at our disposal.
+Clément will be responsible for the well maintain of the occulus.
+
+- Compatibility problem between occulus and our computer (windows/mac)
+
 #### j. Support considerations
+
+In the case we have no longer acess to the occulus, we could switch to a 3D navigation without using VR to assure the continuity of the project.
 
 ## 5. Success Evaluation
 
