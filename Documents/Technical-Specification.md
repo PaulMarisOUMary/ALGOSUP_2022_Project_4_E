@@ -121,22 +121,34 @@ In order to use it on Unity, we will convert the 3D map in one of the following 
 
 #### b. Metrics
 
-## Works
+## 6. Works
 
 #### a. Work estimates and timelines
 
-| Task   | Ressource      |  Estimated Time    |
-| ------- | ---------- | ---------- |
-| Write functionnal specification | Github/Stack Overflow   |   1 week   |
-| Write technical specification  | Github/Stack Overflow    | 1 week   |
+| Task                                                     | Resource                | Estimated Time |
+| -------------------------------------------------------- | ----------------------- | -------------- |
+| Write functional specification                           | Github / Stack Overflow | 2 week         |
+| Write technical specification & architecture diagram     | Github / Stack Overflow | 1 week         |
+| Simplify the 3D model                                    | Blender                 | 1 week         |
+| Get a working environnement with non-nauseating movement | Unity / VR headset      | 1 week         |
+| Add interactions with the 3D model                       | Unity                   | 1 ½ weeks      |
+| Implement NPCs with animations and movement              | Unity                   | 1 ½ weeks      |
+| Create menus to edit environnement and scenarios         | Unity                   | 3 weeks        |
+| Prepare the presentation                                 | —                       | ½ week         |
+
+Note: Number of team members assigned to each task still needs to be defined.
 
 #### b. Prioritization
 
-In the first two weeks, we prioritized writing the functionnal specification and the technical specification to make sure everything was understood and to simplify the work. Next, we're going to make all the physics of the 3D world and implement all the object we need. We'll also make the NPC afterward and multiple persona that the users can incarnate. Then in the two last week we're gonna debug, finish what's missing and prepare for the oral exam.
+In the first two weeks, we prioritized writing the functional specification and the technical specification to make sure everything was understood and to simplify the work.
+Next, we will make all the physics of the 3D world and implement all the object we need. We also need to make the NPC afterward and multiple persona that the users can incarnate.
+Then in the two last week we are going to debug, finish what is missing and prepare for the oral exam.
+
+Finally, if and only if we have some time remaining, we will also implement different menus to allow the user to control its environnement. Those would modify the personae, schedule organization and the furniture placement.
 
 #### c. Milestones
 
-- Functionnal specification
+- Functional specification
 - Technical specification
 - Physics, animations, objects implementation
 - First persona
@@ -144,6 +156,10 @@ In the first two weeks, we prioritized writing the functionnal specification and
 - Oral exam
 
 #### d. Future Work
+
+If not already done, implementation of the control menus should be done later.
+
+More animations and interactions may be added. Those include the second floor, off limit areas, etc...
 
 ## 7. Deliberation
 
