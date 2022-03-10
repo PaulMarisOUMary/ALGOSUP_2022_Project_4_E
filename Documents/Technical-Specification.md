@@ -63,7 +63,7 @@
 
 ### a. Overview, Problem Description, Summary, or Abstract
 
-Our project is based on Virtual Reality. We need to make sure that the  model provided from the Algosup to B3 will correspond  to the needs of the school and then to simulate a typical day at school.
+Our project is based on Virtual Reality. We need to make sure that the model provided from the Algosup to B3 will correspond to the needs of the school and then simulate a typical day at school.
 
 We have had some issues with the 3d model, we need to refactor the 3d model of B3.
 
@@ -71,19 +71,19 @@ We have had some issues with the 3d model, we need to refactor the 3d model of B
 
 ### b. Glossary or Terminology
 
-<!-- do this part at the end to know all the technical word that used in this document -->
+<!-- do this part at the end to know all the technical words used in this document -->
 
 <br>
 
 ### c. Context or Background
 
-This project was made in order to find some possible issues that we can solve before making the B3 building. It's worth doing because it will allowed ALGOSUP to correct potential issues before going in which will result in a gain of time and money.
+This project was made to find some possible issues that we can solve before making the B3 building. It's worth doing because it will be allowed ALGOSUP to correct potential issues before going in which will result in a gain of time and money.
 
 <br>
 
 ### d. Goals or Product and Technical Requirements
 
-Our project will be used to visit our future premises with a total immersion, it is also used to verify if there are eventual modifications to take into account and the simulation could also be used so that the future students can visit the premises before the delivery of the building site.
+Our project will be used to visit our future premises with total immersion, it is also used to verify if there are eventual modifications to take into account and the simulation could also be used so that the future students can visit the premises before the delivery of the building site.
 
 <br>
 
@@ -107,15 +107,15 @@ The goal of this project is to make a simulation of a typical day and events tha
 
 ### a. Current Design
 
-There are no current design. Everything will be made from scratch.
+There is no current design. Everything will be made from scratch.
 
 <br>
 
 ### b. Suggested or Proposed Solution / Design 
 
 We will rely on the 3D file of the building produced by the architect in the BIMx format, as well as 2D maps of each floor (PDF).
-Since we will be using Unity, the 3D model will have to be converted in the FBX format.
-This will allow us to work on the project while still having every component separated from on another.
+Since we will be using Unity, the 3D model will have to be converted into the FBX format.
+This will allow us to work on the project while still having every component separated from one another.
 
 <!-- Pseudo code & flowcharts ? -->
 
@@ -123,7 +123,7 @@ This will allow us to work on the project while still having every component sep
 
 ### c. Test Plan
 
-x <!-- What ? Does it mean we don't have any or something else ? Don't just put an X -->
+x <!-- What ? Does it mean we don't have any or something else? Don't just put an X -->
 
 <br>
 
@@ -135,8 +135,8 @@ x <!-- What ? Does it mean we don't have any or something else ? Don't just put 
 
 ### e. Release / Roll-out and Deployment Plan
 
-The final product will be deployed and handed to the client for April 8.
-After this date, development will stop unless extended by the client.
+The final product will be deployed and handed to the client on April 8.
+After this date, the development will stop unless extended by the client.
 
 <br><br>
 
@@ -150,13 +150,13 @@ After this date, development will stop unless extended by the client.
 
 ### b. Cost analysis
 
-The Oculus Quest 2 is provided by the school, so for groups the hardware had no cost, but the price of 1 VR headset is 350€.
+The Oculus Quest 2 is provided by the school, so for groups, the hardware had no cost, but the price of 1 VR headset is 350€.
 
 <br>
 
 ### c. Security considerations
 
-On the software side, this project can't really be threatened because we don't plan to integrate a client/server system for the moment, the project won't be public so only people inside the school will have access to it.
+On the software side, this project can't be threatened because we don't plan to integrate a client/server system for the moment, the project won't be public so only people inside the school will have access to it.
 On the hardware side, this project is based on virtual reality, so for people who have never used this type of technology, there may be symptoms of cyberkinetosis.
 
 > *cyberkinetosis: pallor, feeling of uneasiness, visual disturbances, disorientation, headache, tiredness, dizziness, nausea, vomiting, tachycardia, hypersalivation*
@@ -165,7 +165,7 @@ On the hardware side, this project is based on virtual reality, so for people wh
 
 ### d. Privacy considerations
 
-We don't have any users data in our simulation, so the privacy isn't a probleme.  
+We don't have any users' data in our simulation, so privacy isn't a problem.  
 
 <br>
 
@@ -183,10 +183,10 @@ To use our simulation we need to have a VR Headset.
 
 There are some risks to take into consideration in this project :
 
-- Deliverable : We can be late. There are a lot to do.
+- Deliverable: We can be late. There is a lot to do.
 
-- Materials : We need to take care of the material at our disposal.
-Clément will be responsible for the well maintain of the Oculus.
+- Materials: We need to take care of the material at our disposal.
+Clément will be responsible for the good maintenance of the Oculus.
 
 - Compatibility problem between Oculus and our computer (windows/mac)
 
@@ -194,7 +194,7 @@ Clément will be responsible for the well maintain of the Oculus.
 
 ### i. Support considerations
 
-In the case we have no longer access to the Oculus, we could switch to a 3D navigation without using VR to assure the continuity of the project.
+In the case we have no longer access to the Oculus, we could switch to 3D navigation without using VR to assure the continuity of the project.
 
 <br><br>
 
@@ -204,13 +204,13 @@ In the case we have no longer access to the Oculus, we could switch to a 3D navi
 
 ### a. Impact
 
-<!-- impact of our project and the way to use our project -->
+<!-- the impact of our project and the way to use our project -->
 
 <br>
 
 ### b. Metrics
 
-<!-- if simulation is at scale and problem with architect work -->
+<!-- if the simulation is at scale and problem with architect work -->
 
 <br><br>
 
@@ -222,26 +222,26 @@ In the case we have no longer access to the Oculus, we could switch to a 3D navi
 
 | Task                                                     | Resource                | Estimated Time |
 | -------------------------------------------------------- | ----------------------- | -------------- |
-| Write functional specification                           | Github / Stack Overflow | 2 week         |
+| Write functional specification                           | Github / Stack Overflow | 2 weeks        |
 | Write technical specification & architecture diagram     | Github / Stack Overflow | 1 week         |
 | Simplify the 3D model                                    | Blender                 | 1 week         |
-| Get a working environnement with non-nauseating movement | Unity / VR headset      | 1 week         |
+| Get a working environment with non-nauseating movement   | Unity / VR headset      | 1 week         |
 | Add interactions with the 3D model                       | Unity                   | 1 ½ weeks      |
 | Implement NPCs with animations and movement              | Unity                   | 1 ½ weeks      |
 | Create menus to edit environnement and scenarios         | Unity                   | 3 weeks        |
 | Prepare the presentation                                 | —                       | ½ week         |
 
-Note: Number of team members assigned to each task still needs to be defined.
+Note: The number of team members assigned to each task still needs to be defined.
 
 <br>
 
 ### b. Prioritization
 
 In the first two weeks, we prioritized writing the functional specification and the technical specification to make sure everything was understood and to simplify the work.
-Next, we will make all the physics of the 3D world and implement all the object we need. We also need to make the NPC afterward and multiple persona that the users can incarnate.
-Then in the two last week we are going to debug, finish what is missing and prepare for the oral exam.
+Next, we will make all the physics of the 3D world and implement all the objects we need. We also need to make the NPC afterward and multiple personae that the users can incarnate.
+Then in the two last weeks, we are going to debug, finish what is missing, and prepare for the oral exam.
 
-Finally, if and only if we have some time remaining, we will also implement different menus to allow the user to control its environnement. Those would modify the personae, schedule organization and the furniture placement.
+Finally, if and only if we have some time remaining, we will also implement different menus to allow the user to control its environment. Those would modify the personae, schedule organization, and furniture placement.
 
 <br>
 
@@ -260,7 +260,7 @@ Finally, if and only if we have some time remaining, we will also implement diff
 
 If not already done, implementation of the control menus should be done later.
 
-More animations and interactions may be added. Those include the second floor, off limit areas, etc...
+More animations and interactions may be added. Those include the second floor, off-limit areas, etc...
 
 <br><br>
 
