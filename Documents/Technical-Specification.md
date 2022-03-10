@@ -13,13 +13,11 @@
   - [f. Future Goals](#f-future-goals)
   - [g. Assumptions](#g-assumptions)
 - [3. Solutions](#3-solutions)
-  - [a. Current or Existing Solution / Design](#a-current-or-existing-solution--design)
+  - [a. Current Design](#a-current-design)
   - [b. Suggested or Proposed Solution / Design](#b-suggested-or-proposed-solution--design)
   - [c. Test Plan](#c-test-plan)
   - [d. Monitoring and Alerting Plan](#d-monitoring-and-alerting-plan)
   - [e. Release / Roll-out and Deployment Plan](#e-release--roll-out-and-deployment-plan)
-  - [f. Rollback Plan](#f-rollback-plan)
-  - [g. Alternate Solutions / Designs](#g-alternate-solutions--designs)
 - [4. Further Considerations](#4-further-considerations)
   - [a. Impact on other teams](#a-impact-on-other-teams)
   - [b. Third-party services and platforms considerations](#b-third-party-services-and-platforms-considerations)
@@ -75,9 +73,9 @@ We have had some issues with the 3d model, we need to refactor the 3d model of B
 
 ### b. Glossary or Terminology
 
-<br>
-
 <!-- do this part at the end to know all the technical word that used in this document -->
+
+<br>
 
 ### c. Context or Background
 
@@ -109,15 +107,19 @@ The goal of this project is to make a simulation of a typical day and events tha
 
 ## 3. Solutions
 
-### a. Current or Existing Solution / Design
+### a. Current Design
 
-Right now, we are provided with the 3D file produced by the architect of the building in the BIMx format, as well as 2D maps of each floor (PDF).
+There are no current design. Everything will be made from scratch.
 
 <br>
 
 ### b. Suggested or Proposed Solution / Design 
 
-In order to use it on Unity, we will convert the 3D map in one of the following format: FBX, MLT & OBJ.
+We will rely on the 3D file of the building produced by the architect in the BIMx format, as well as 2D maps of each floor (PDF).
+Since we will be using Unity, the 3D model will have to be converted in the FBX format.
+This will allow us to work on the project while still having every component separated from on another.
+
+<!-- Pseudo code & flowcharts ? -->
 
 <br>
 
@@ -129,17 +131,14 @@ x <!-- What ? Does it mean we don't have any or something else ? Don't just put 
 
 ### d. Monitoring and Alerting Plan 
 
+<!-- No idea-->
+
 <br>
 
 ### e. Release / Roll-out and Deployment Plan
 
-<br>
-
-### f. Rollback Plan
-
-<br>
-
-### g. Alternate Solutions / Designs
+The final product will be deployed and handed to the client for April 8.
+After this date, development will stop unless extended by the client.
 
 <br><br>
 
