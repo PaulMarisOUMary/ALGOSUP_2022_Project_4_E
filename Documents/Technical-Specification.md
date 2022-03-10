@@ -35,7 +35,7 @@
   - [5. Success Evaluation](#5-success-evaluation)
       - [a. Impact](#a-impact)
       - [b. Metrics](#b-metrics)
-  - [Works](#works)
+  - [6. Works](#6-works)
       - [a. Work estimates and timelines](#a-work-estimates-and-timelines)
       - [b. Prioritization](#b-prioritization)
       - [c. Milestones](#c-milestones)
@@ -66,13 +66,19 @@ We have had some issues with the 3d model, we need to refactor the 3d model of B
 
 #### b. Glossary or Terminology
 
+<!-- do this part at the end to know all the technical word that used in this document -->
+
 #### c. Context or Background
 
 This project was made in order to find some possible issues that we can solve before making the B3 building. It's worth doing because it will allowed ALGOSUP to correct potential issues before going in which will result in a gain of time and money.
 
 #### d. Goals or Product and Technical Requirements
 
+Our project will be used to visit our future premises with a total immersion, it is also used to verify if there are eventual modifications to take into account and the simulation could also be used so that the future students can visit the premises before the delivery of the building site.
+
 #### e. Non-Goals or Out of Scope
+
+The goal of this project is to make a simulation of a typical day and events that can happen within the building, we should not make a video game, we should not make a generality and have a diversity of people present in the school, we should not worry only about people from ALGOSUP but also people from the CNAM, the start-up incubator and the connected campus.
 
 #### f. Future Goals
 
@@ -108,6 +114,8 @@ x
 
 #### c. Cost analysis
 
+The Oculus Quest 2 is provided by the school, so for groups the hardware had no cost, but the price of 1 VR headset is 350€.
+
 #### d. Security considerations
 
 #### e. Privacy considerations
@@ -137,12 +145,20 @@ In the case we have no longer acess to the occulus, we could switch to a 3D navi
 
 #### a. Impact
 
+<!-- impact of our project and the way to use our project -->
+
 #### b. Metrics
 
+<<<<<<< Updated upstream
+=======
+<!-- if simulation is at scale and problem with architect work -->
+
+>>>>>>> Stashed changes
 ## 6. Works
 
 #### a. Work estimates and timelines
 
+<<<<<<< Updated upstream
 | Task                                                     | Resource                | Estimated Time |
 | -------------------------------------------------------- | ----------------------- | -------------- |
 | Write functional specification                           | Github / Stack Overflow | 2 week         |
@@ -155,6 +171,12 @@ In the case we have no longer acess to the occulus, we could switch to a 3D navi
 | Prepare the presentation                                 | —                       | ½ week         |
 
 Note: Number of team members assigned to each task still needs to be defined.
+=======
+| Task                            | Ressource             | Estimated Time |
+| ------------------------------- | --------------------- | -------------- |
+| Write functionnal specification | Github/Stack Overflow | 1 week         |
+| Write technical specification   | Github/Stack Overflow | 1 week         |
+>>>>>>> Stashed changes
 
 #### b. Prioritization
 
