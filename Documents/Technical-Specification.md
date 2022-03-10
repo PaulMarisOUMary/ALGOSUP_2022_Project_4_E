@@ -149,16 +149,12 @@ In the case we have no longer acess to the occulus, we could switch to a 3D navi
 
 #### b. Metrics
 
-<<<<<<< Updated upstream
-=======
 <!-- if simulation is at scale and problem with architect work -->
 
->>>>>>> Stashed changes
 ## 6. Works
 
 #### a. Work estimates and timelines
 
-<<<<<<< Updated upstream
 | Task                                                     | Resource                | Estimated Time |
 | -------------------------------------------------------- | ----------------------- | -------------- |
 | Write functional specification                           | Github / Stack Overflow | 2 week         |
@@ -171,12 +167,6 @@ In the case we have no longer acess to the occulus, we could switch to a 3D navi
 | Prepare the presentation                                 | —                       | ½ week         |
 
 Note: Number of team members assigned to each task still needs to be defined.
-=======
-| Task                            | Ressource             | Estimated Time |
-| ------------------------------- | --------------------- | -------------- |
-| Write functionnal specification | Github/Stack Overflow | 1 week         |
-| Write technical specification   | Github/Stack Overflow | 1 week         |
->>>>>>> Stashed changes
 
 #### b. Prioritization
 
