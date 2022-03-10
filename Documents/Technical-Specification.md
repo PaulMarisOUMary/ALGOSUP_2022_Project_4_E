@@ -53,11 +53,11 @@
 
 ## 1. Front matter
 - Title: Virtual Reality of the Future B3
-- Author(s): Clément CATON, Florent HUREAUX, Laurent BOUQUIN, Léo CHARTIER, Paul MARIS, Pierre GORIN
+- Authors: Clément CATON, Florent HUREAUX, Laurent BOUQUIN, Léo CHARTIER, Paul MARIS, Pierre GORIN
 - Team: ALGOSUP_2022_PROJECT_4_E
-- Reviewers(s): Team/Franck JEANNIN
+- Reviewers: Team / Franck JEANNIN
 - Created on: 04/03/2022
-- Last updated: 04/03/2022
+- Last updated: 10/03/2022
 
 <br><br>
 
