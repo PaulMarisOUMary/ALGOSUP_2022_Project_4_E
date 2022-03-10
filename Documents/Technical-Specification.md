@@ -3,49 +3,50 @@
 
 # Technical Specification
 
-- [1. Front matter](#1-front-matter)
-- [2. Introduction](#2-introduction)
-    + [a. Overview, Problem Description, Summary, or Abstract](#a-overview--problem-description--summary--or-abstract)
-    + [b. Glossary or Terminology](#b-glossary-or-terminology)
-    + [c. Context or Background](#c-context-or-background)
-    + [d. Goals or Product and Technical Requirements](#d-goals-or-product-and-technical-requirements)
-    + [e. Non-Goals or Out of Scope](#e-non-goals-or-out-of-scope)
-    + [f. Future Goals](#f-future-goals)
-    + [g. Assumptions](#g-assumptions)
-- [3. Solutions](#3-solutions)
-    + [a. Current or Existing Solution / Design](#a-current-or-existing-solution---design)
-    + [b. Suggested or Proposed Solution / Design](#b-suggested-or-proposed-solution---design)
-    + [c. Test Plan](#c-test-plan)
-    + [d. Monitoring and Alerting Plan](#d-monitoring-and-alerting-plan)
-    + [e. Release / Roll-out and Deployment Plan](#e-release---roll-out-and-deployment-plan)
-    + [f. Rollback Plan](#f-rollback-plan)
-    + [g. Alternate Solutions / Designs](#g-alternate-solutions---designs)
-- [4. Further Considerations](#4-further-considerations)
-    + [a. Impact on other teams](#a-impact-on-other-teams)
-    + [b. Third-party services and platforms considerations](#b-third-party-services-and-platforms-considerations)
-    + [c. Cost analysis](#c-cost-analysis)
-    + [d. Security considerations](#d-security-considerations)
-    + [e. Privacy considerations](#e-privacy-considerations)
-    + [f. Regional considerations](#f-regional-considerations)
-    + [g. Accessibility considerations](#g-accessibility-considerations)
-    + [h. Operational considerations](#h-operational-considerations)
-    + [i. Risks](#i-risks)
-    + [j. Support considerations](#j-support-considerations)
-- [5. Success Evaluation](#5-success-evaluation)
-    + [a. Impact](#a-impact)
-    + [b. Metrics](#b-metrics)
-- [Works](#works)
-    + [a. Work estimates and timelines](#a-work-estimates-and-timelines)
-    + [b. Prioritization](#b-prioritization)
-    + [c. Milestones](#c-milestones)
-    + [d. Future Work](#d-future-work)
-- [7. Deliberation](#7-deliberation)
-    + [a. Discussion](#a-discussion)
-    + [b. Open Questions](#b-open-questions)
-- [8. End Matter](#8-end-matter)
-    + [a. Related Work](#a-related-work)
-    + [b. References](#b-references)
-    + [c. Acknowledgement](#c-acknowledgement)
+- [Technical Specification](#technical-specification)
+  - [1. Front matter](#1-front-matter)
+  - [2. Introduction](#2-introduction)
+      - [a. Overview, Problem Description, Summary, or Abstract](#a-overview-problem-description-summary-or-abstract)
+      - [b. Glossary or Terminology](#b-glossary-or-terminology)
+      - [c. Context or Background](#c-context-or-background)
+      - [d. Goals or Product and Technical Requirements](#d-goals-or-product-and-technical-requirements)
+      - [e. Non-Goals or Out of Scope](#e-non-goals-or-out-of-scope)
+      - [f. Future Goals](#f-future-goals)
+      - [g. Assumptions](#g-assumptions)
+  - [3. Solutions](#3-solutions)
+      - [a. Current or Existing Solution / Design](#a-current-or-existing-solution--design)
+      - [b. Suggested or Proposed Solution / Design](#b-suggested-or-proposed-solution--design)
+      - [c. Test Plan](#c-test-plan)
+      - [d. Monitoring and Alerting Plan](#d-monitoring-and-alerting-plan)
+      - [e. Release / Roll-out and Deployment Plan](#e-release--roll-out-and-deployment-plan)
+      - [f. Rollback Plan](#f-rollback-plan)
+      - [g. Alternate Solutions / Designs](#g-alternate-solutions--designs)
+  - [4. Further Considerations](#4-further-considerations)
+      - [a. Impact on other teams](#a-impact-on-other-teams)
+      - [b. Third-party services and platforms considerations](#b-third-party-services-and-platforms-considerations)
+      - [c. Cost analysis](#c-cost-analysis)
+      - [d. Security considerations](#d-security-considerations)
+      - [e. Privacy considerations](#e-privacy-considerations)
+      - [f. Regional considerations](#f-regional-considerations)
+      - [g. Accessibility considerations](#g-accessibility-considerations)
+      - [h. Operational considerations](#h-operational-considerations)
+      - [i. Risks](#i-risks)
+      - [j. Support considerations](#j-support-considerations)
+  - [5. Success Evaluation](#5-success-evaluation)
+      - [a. Impact](#a-impact)
+      - [b. Metrics](#b-metrics)
+  - [Works](#works)
+      - [a. Work estimates and timelines](#a-work-estimates-and-timelines)
+      - [b. Prioritization](#b-prioritization)
+      - [c. Milestones](#c-milestones)
+      - [d. Future Work](#d-future-work)
+  - [7. Deliberation](#7-deliberation)
+      - [a. Discussion](#a-discussion)
+      - [b. Open Questions](#b-open-questions)
+  - [8. End Matter](#8-end-matter)
+      - [a. Related Work](#a-related-work)
+      - [b. References](#b-references)
+      - [c. Acknowledgement](#c-acknowledgement)
 
 ## 1. Front matter
 - Title: Virtual Reality of the Future B3
@@ -59,11 +60,15 @@
 
 #### a. Overview, Problem Description, Summary, or Abstract
 
+Our project is based on Virtual Reality. We need to make sure that the  model provided from the Algosup to B3 will correspond  to the needs of the school and then to simulate a typical day at school.
+
+We have had some issues with the 3d model, we need to refactor the 3d model of B3.
+
 #### b. Glossary or Terminology
 
 #### c. Context or Background
 
-This project was made in order to find some issues that we can solve before building the B3 building. It's worth doing because it will allowed ALGOSUP to correct potential issues before going in which will result in a gain of time and money.
+This project was made in order to find some possible issues that we can solve before making the B3 building. It's worth doing because it will allowed ALGOSUP to correct potential issues before going in which will result in a gain of time and money.
 
 #### d. Goals or Product and Technical Requirements
 
@@ -84,6 +89,8 @@ Right now, we are provided with the 3D file produced by the architect of the bui
 In order to use it on Unity, we will convert the 3D map in one of the following format: FBX, MLT & OBJ.
 
 #### c. Test Plan
+
+x
 
 #### d. Monitoring and Alerting Plan 
 
@@ -113,7 +120,18 @@ In order to use it on Unity, we will convert the 3D map in one of the following 
 
 #### i. Risks
 
+There are some risks to take into consideration in this project :
+
+- Deliverable : We can be late. There are a lot to do.
+
+- Materials : We need to take care of the material at our disposal.
+Clément will be responsible for the well maintain of the occulus.
+
+- Compatibility problem between occulus and our computer (windows/mac)
+
 #### j. Support considerations
+
+In the case we have no longer acess to the occulus, we could switch to a 3D navigation without using VR to assure the continuity of the project.
 
 ## 5. Success Evaluation
 
