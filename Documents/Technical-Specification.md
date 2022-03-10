@@ -19,16 +19,14 @@
   - [d. Monitoring and Alerting Plan](#d-monitoring-and-alerting-plan)
   - [e. Release / Roll-out and Deployment Plan](#e-release--roll-out-and-deployment-plan)
 - [4. Further Considerations](#4-further-considerations)
-  - [a. Impact on other teams](#a-impact-on-other-teams)
-  - [b. Third-party services and platforms considerations](#b-third-party-services-and-platforms-considerations)
-  - [c. Cost analysis](#c-cost-analysis)
-  - [d. Security considerations](#d-security-considerations)
-  - [e. Privacy considerations](#e-privacy-considerations)
-  - [f. Regional considerations](#f-regional-considerations)
-  - [g. Accessibility considerations](#g-accessibility-considerations)
-  - [h. Operational considerations](#h-operational-considerations)
-  - [i. Risks](#i-risks)
-  - [j. Support considerations](#j-support-considerations)
+  - [a. Third-party services and platforms considerations](#a-third-party-services-and-platforms-considerations)
+  - [b. Cost analysis](#b-cost-analysis)
+  - [c. Security considerations](#c-security-considerations)
+  - [d. Privacy considerations](#d-privacy-considerations)
+  - [e. Accessibility considerations](#e-accessibility-considerations)
+  - [f. Operational considerations](#f-operational-considerations)
+  - [g. Risks](#g-risks)
+  - [i. Support considerations](#i-support-considerations)
 - [5. Success Evaluation](#5-success-evaluation)
   - [a. Impact](#a-impact)
   - [b. Metrics](#b-metrics)
@@ -142,45 +140,46 @@ After this date, development will stop unless extended by the client.
 
 <br><br>
 
-
-
 ## 4. Further Considerations
 
-### a. Impact on other teams
+<br>
+
+### a. Third-party services and platforms considerations
 
 <br>
 
-### b. Third-party services and platforms considerations
-
-<br>
-
-### c. Cost analysis
+### b. Cost analysis
 
 The Oculus Quest 2 is provided by the school, so for groups the hardware had no cost, but the price of 1 VR headset is 350€.
 
 <br>
 
-### d. Security considerations
+### c. Security considerations
+
+On the software side, this project can't really be threatened because we don't plan to integrate a client/server system for the moment, the project won't be public so only people inside the school will have access to it.
+On the hardware side, this project is based on virtual reality, so for people who have never used this type of technology, there may be symptoms of cyberkinetosis.
+
+> *cyberkinetosis: pallor, feeling of uneasiness, visual disturbances, disorientation, headache, tiredness, dizziness, nausea, vomiting, tachycardia, hypersalivation*
 
 <br>
 
-### e. Privacy considerations
+### d. Privacy considerations
+
+We don't have any users data in our simulation, so the privacy isn't a probleme.  
 
 <br>
 
-### f. Regional considerations
+### e. Accessibility considerations
+
+To use our simulation we need to have a VR Headset. 
 
 <br>
 
-### g. Accessibility considerations
+### f. Operational considerations
 
 <br>
 
-### h. Operational considerations
-
-<br>
-
-### i. Risks
+### g. Risks
 
 There are some risks to take into consideration in this project :
 
@@ -193,7 +192,7 @@ Clément will be responsible for the well maintain of the Oculus.
 
 <br>
 
-### j. Support considerations
+### i. Support considerations
 
 In the case we have no longer access to the Oculus, we could switch to a 3D navigation without using VR to assure the continuity of the project.
 
@@ -252,7 +251,7 @@ Finally, if and only if we have some time remaining, we will also implement diff
 - Technical specification
 - Physics, animations, objects implementation
 - First persona
-- NPC 
+- NPC
 - Oral exam
 
 <br>
@@ -276,8 +275,6 @@ More animations and interactions may be added. Those include the second floor, o
 ### b. Open Questions
 
 <br><br>
-
-
 
 ## 8. End Matter
 
