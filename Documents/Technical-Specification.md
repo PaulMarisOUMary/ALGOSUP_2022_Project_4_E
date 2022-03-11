@@ -123,13 +123,14 @@ This will allow us to work on the project while still having every component sep
 
 ### c. Test Plan
 
-x <!-- What ? Does it mean we don't have any or something else? Don't just put an X -->
+We won't use unit test to assure that we have enought time to finish the project.
 
 <br>
 
 ### d. Monitoring and Alerting Plan 
 
-<!-- No idea-->
+We use GitHub to observe and maintain the state of our project and to facilitate the work with other member of the team. 
+If we encounter any problem, we can ask Franck by Slack or directly in his office.
 
 <br>
 
@@ -261,6 +262,8 @@ Finally, if and only if we have some time remaining, we will also implement diff
 If not already done, implementation of the control menus should be done later.
 
 More animations and interactions may be added. Those include the second floor, off-limit areas, etc...
+
+We could also include unit test to our project to make sure everything work as intented and to make it easier to maintain or upgrade in the future.
 
 <br><br>
 
