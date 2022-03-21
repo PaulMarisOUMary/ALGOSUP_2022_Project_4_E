@@ -434,7 +434,7 @@ HingeJoint:
   m_GameObject: {fileID: 978263148236074363}
   m_ConnectedBody: {fileID: 3384276418471018060}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0.0084, y: 0.0009799509, z: 0.02}
+  m_Anchor: {x: 0.0084, y: -0.0004, z: 0.02}
   m_Axis: {x: 0, y: 90, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
@@ -470,7 +470,7 @@ BoxCollider:
   m_GameObject: {fileID: 978263148236074363}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.002373048, y: 0.00045721672, z: 0.00050923356}
   m_Center: {x: 0.00728388, y: -0.0016408241, z: 0.020285381}
