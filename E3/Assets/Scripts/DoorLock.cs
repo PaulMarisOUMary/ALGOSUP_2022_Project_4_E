@@ -6,19 +6,25 @@ public class DoorLock : MonoBehaviour
 {
     public GameObject door;
     public GameObject handle;
-    public bool isDoorLocked = true;
 
     void LockUpdate()
     {
         Rigidbody doorRigidbody = door.GetComponent<Rigidbody>();
-        bool canBeLocked = false;
+
+        bool doorPositionLock = false;
+        bool handleLock = true;
+
+        if (handle.transform.localRotation.y < -0.5f)
+            handleLock = false;
+        else
+            handleLock = true;
 
         if (door.transform.position.z < 0.1f)
-            canBeLocked = true;
+            doorPositionLock = true;
         else
-            canBeLocked = false;
+            doorPositionLock = false;
 
-        if (isDoorLocked && canBeLocked)
+        if (handleLock && doorPositionLock)
         {
             doorRigidbody.constraints = RigidbodyConstraints.FreezeRotation;
             doorRigidbody.isKinematic = true;
@@ -28,22 +34,12 @@ public class DoorLock : MonoBehaviour
         }
     }
 
-    void changeLockingStatus()
-    {
-        if (handle.transform.localRotation.y < -0.5f)
-            isDoorLocked = false;
-        else
-            isDoorLocked = true;
-    }
-
     void Start()
     {
 
     }
     void Update()
     {
-        changeLockingStatus();
         LockUpdate();
-        Debug.Log(isDoorLocked);
     }
 }
