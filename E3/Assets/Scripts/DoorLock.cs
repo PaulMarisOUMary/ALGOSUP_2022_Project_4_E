@@ -6,6 +6,7 @@ public class DoorLock : MonoBehaviour
 {
     public GameObject door;
     public GameObject handle;
+    public GameObject bonusLock;
 
     void LockUpdate()
     {
