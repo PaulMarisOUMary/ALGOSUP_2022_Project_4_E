@@ -10,9 +10,15 @@ public class DoorLock : MonoBehaviour
 
     void LockUpdate()
     {
-        //if door z is near default position
         Rigidbody doorRigidbody = door.GetComponent<Rigidbody>();
-        if (isDoorLocked)
+        bool canBeLocked = false;
+
+        if (door.transform.position.z < 0.1f)
+            canBeLocked = true;
+        else
+            canBeLocked = false;
+
+        if (isDoorLocked && canBeLocked)
         {
             doorRigidbody.constraints = RigidbodyConstraints.FreezeRotation;
             doorRigidbody.isKinematic = true;
@@ -24,10 +30,10 @@ public class DoorLock : MonoBehaviour
 
     void changeLockingStatus()
     {
-        if (handle.transform.localRotation.y > -0.5f)
-            isDoorLocked = true;
-        else
+        if (handle.transform.localRotation.y < -0.5f)
             isDoorLocked = false;
+        else
+            isDoorLocked = true;
     }
 
     void Start()
