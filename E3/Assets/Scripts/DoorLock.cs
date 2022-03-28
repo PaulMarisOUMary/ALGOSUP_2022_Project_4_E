@@ -11,20 +11,7 @@ public class DoorLock : MonoBehaviour
     {
         Rigidbody doorRigidbody = door.GetComponent<Rigidbody>();
 
-        bool doorPositionLock = false;
-        bool handleLock = true;
-
-        if (handle.transform.localRotation.y < -0.02f)
-            handleLock = false;
-        else
-            handleLock = true;
-
-        if (door.transform.position.z < 0.001f)
-            doorPositionLock = true;
-        else
-            doorPositionLock = false;
-
-        if (handleLock && doorPositionLock)
+        if (handle.transform.localRotation.y > -0.02f && door.transform.localRotation.z < 0.001f)
         {
             doorRigidbody.constraints = RigidbodyConstraints.FreezeRotation;
             doorRigidbody.isKinematic = true;
