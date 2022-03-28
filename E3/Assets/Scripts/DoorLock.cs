@@ -14,12 +14,12 @@ public class DoorLock : MonoBehaviour
         bool doorPositionLock = false;
         bool handleLock = true;
 
-        if (handle.transform.localRotation.y < -0.5f)
+        if (handle.transform.localRotation.y < -0.02f)
             handleLock = false;
         else
             handleLock = true;
 
-        if (door.transform.position.z < 0.1f)
+        if (door.transform.position.z < 0.001f)
             doorPositionLock = true;
         else
             doorPositionLock = false;
