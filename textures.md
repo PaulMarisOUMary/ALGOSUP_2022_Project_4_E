@@ -1,33 +1,47 @@
-- [*Colored Walls*](#colored-walls)
-    - [Dark Green](#dark-green)
-    - [Dark Blue](#dark-blue)
-    - [Red](#red)
-    - [Yellow](#yellow)
-- [*Textured Walls*](#textured-walls)
-    - [Brick](#brick)
-    - [Wood](#wood)
-    - [Black Paint](#black-paint)
-    - [White Paint](#white-paint)
-- [*Parquets*](#parquets)
-    - [Dark Parquet](#dark-parquet)
-    - [Light Parquet](#light-parquet)
-- [*Concretes*](#concretes)
-    - [Dark Grey Concrete](#dark-grey-concrete)
-    - [Grey Concrete](#grey-concrete)
-    - [Fake Ceiling](#fake-ceiling)
-    - [Grainy Ceiling](#grainy-ceiling)
-- [*Metals*](#metals)
-    - [Iron](#iron)
-    - [Brushed Metal](#brushed-metal)
-    - [Black Metal](#black-metal)
-- [*Papers*](#papers)
-    - [Paper Sheets](#paper-sheets)
-    - [Toilet Paper](#toilet-paper)
-- [*Textiles*](#textiles)
-    - [Grey Tissue](#grey-tissue)
-- [*Others*](#others)
-    - [White Plastic](#white-plastic)
-    - [Porcelain](#porcelain)
+- [Amphitheater](#amphitheater)
+      - [Seats](#seats)
+      - [Steps](#steps)
+- [Walls](#walls)
+  - [*Colored Walls*](#colored-walls)
+      - [Dark Green](#dark-green)
+      - [Dark Blue](#dark-blue)
+      - [Red](#red)
+      - [Yellow](#yellow)
+  - [*Textured Walls*](#textured-walls)
+      - [Brick](#brick)
+      - [Wood](#wood)
+- [Paint](#paint)
+      - [Black Paint](#black-paint)
+      - [White Paint](#white-paint)
+- [Floors](#floors)
+  - [*Parquets*](#parquets)
+      - [Dark Parquet](#dark-parquet)
+      - [Light Parquet](#light-parquet)
+  - [*Concretes*](#concretes)
+      - [Dark Grey Concrete](#dark-grey-concrete)
+      - [Grey Concrete](#grey-concrete)
+- [Ceilings](#ceilings)
+      - [Fake Ceiling](#fake-ceiling)
+      - [Grainy Ceiling](#grainy-ceiling)
+- [Miscellaneous](#miscellaneous)
+  - [*Metals*](#metals)
+      - [Iron](#iron)
+      - [Brushed Metal](#brushed-metal)
+      - [Black Metal](#black-metal)
+      - [Fences](#fences)
+  - [*Papers*](#papers)
+      - [Paper Sheets](#paper-sheets)
+      - [Toilet Paper](#toilet-paper)
+  - [*Textiles*](#textiles)
+      - [Grey Tissue](#grey-tissue)
+  - [*Others*](#others)
+      - [White Plastic](#white-plastic)
+      - [Porcelain](#porcelain)
+  - [*Betters Textures*](#betters-textures)
+      - [Wooden Wall with Relief](#wooden-wall-with-relief)
+      - [Bark](#bark)
+      - [Leaves](#leaves)
+      - [Metal Grill](#metal-grill)
 
 # Amphitheater
 
@@ -113,6 +127,9 @@
 #### Black Metal
 <img src="textures/black_metal.png" width="128"/>
 
+#### Fences
+<img src="textures/fences.png" width="128"/>
+
 ## *Papers*
 
 #### Paper Sheets
@@ -133,3 +150,27 @@
 
 #### Porcelain
 <img src="textures/porcelain.png" width="128"/>
+
+## *Betters Textures*
+
+The textures are from [here](https://3dtextures.me/).<!--  & [here](https://www.textures.com/). -->
+
+#### Wooden Wall with Relief
+<img src="textures/HD-textures/wooden_wall/material_1804.jpg" width="128"/>
+
+[*download*](https://drive.google.com/drive/folders/1ugCrx03DRDlagp_sRbYYDsnpY9jFJlEA)
+
+#### Bark
+<img src="textures/HD-textures/bark/material_2043.jpg" width="128"/>
+
+[*download*](https://drive.google.com/drive/folders/1tgxNAxxO-pMvyBy1JOH32mwyDEiCHzfJ)
+
+#### Leaves
+<img src="textures/HD-textures/leaves/material_2044.jpg" width="128"/>
+
+[*download*](https://drive.google.com/drive/folders/1GRJVKvDlaPbsExFdWptKT5Wx3cy_yiWd)
+
+#### Metal Grill
+<img src="textures/HD-textures/metal_grill/material_2033.jpg" width="128"/>
+
+[*download*](https://drive.google.com/drive/folders/1lW3BzCYs_SlkDquFuQg1V24wj7SjhL22)
