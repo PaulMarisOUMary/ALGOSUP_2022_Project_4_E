@@ -1,0 +1,29 @@
+For any support or suggestions regarding this package contact: ATLAS@sage-mgt.net
+
+PACKAGE INFORMATION:
+Build the kitchen of your virtual dreams with this modular asset pack.  
+Designed specifically with customization in mind, this package includes
+models and textures that are flexible enough to create hundreds of different
+kitchen layouts.  Dozens of texture assets are included to get you started, 
+but you can easily integrate your own textures and shaders to make the 
+kitchen your own.
+
+Appliance Models
+  - Electric Range Stove
+  - Refrigerator
+  - Dishwasher
+
+Cabinets and Counters</strong>
+  - Simple Counter Piece
+  - Corner Counter Connection
+  - Single Door Cabinet
+  - 2 Drawer Cabinet
+  - 3 Drawer Cabinet (2 Variations)
+  - 4 Drawer Cabinet
+  - Single basin sink
+  - Double basin sink
+  
+Textures
+  - 4 Variations for each appliance
+  - Over 50 textures to customize cabinets and counters
+  - All textures provided in PSD and PNG format
