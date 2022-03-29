@@ -10,6 +10,7 @@ public class NPC1Behaviour : MonoBehaviour
     private bool debugVar;
     private string startingtimeNPC;
     public bool wantabreak;
+    private GameObject childdestination;
     Animator animator;
     NavMeshAgent theAgent;
     // Start is called before the first frame update
@@ -38,7 +39,11 @@ public class NPC1Behaviour : MonoBehaviour
             RandomNPCscript getbreakbool = breaktime.GetComponent<RandomNPCscript>();
             wantabreak = getbreakbool.WantToTakeABreak();
             if (wantabreak == true) {
-                GameObject.Find("NPC1destination").transform.position = new Vector3(-2.03699994f, 0.061999999f, 0.291999996f);
+                if (gameObject.name == "NPC1")
+                {
+                    GameObject.Find("NPC1destination").transform.position = new Vector3(-2.03699994f, 0.061999999f, 0.291999996f);
+
+                }
                 isMoving = true;
             }
 
