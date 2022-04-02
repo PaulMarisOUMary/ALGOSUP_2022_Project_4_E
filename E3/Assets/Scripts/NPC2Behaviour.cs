@@ -80,8 +80,8 @@ public class NPC2Behaviour : MonoBehaviour
     IEnumerator WaitingAnimation()
     {
         navObstacleInteraction = GameObject.Find("Chair_Conference_Red2").GetComponent<NavMeshObstacle>();
-        GameObject.Find("Chair_Conference_Red2").transform.position = new Vector3(-13.1200008f, -0.218740463f, -9.2446219f);
-        GameObject.Find("NPC2destination").transform.position = new Vector3(-13.1370001f, 0.0341110229f, -9.24711151f);
+        GameObject.Find("Chair_Conference_Red2").transform.position = new Vector3(-12.4200008f, -0.218740463f, -9.2446219f);
+        GameObject.Find("NPC2destination").transform.position = new Vector3(-12.4370001f, 0.0341110229f, -9.24711151f);
         navObstacleInteraction.enabled = false;
         theAgent.SetDestination(destination.transform.position);
         yield return new WaitForSeconds(2.05f);
