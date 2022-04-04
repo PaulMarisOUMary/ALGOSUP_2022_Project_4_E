@@ -6,12 +6,14 @@ public class DoorLock : MonoBehaviour
 {
     public GameObject door;
     public GameObject handle;
+    public bool bonusLockAccess = true;
+    public GameObject bonusLock;
 
     void LockUpdate()
     {
         Rigidbody doorRigidbody = door.GetComponent<Rigidbody>();
 
-        if (handle.transform.localRotation.y > -0.02f && door.transform.localRotation.z < 0.001f)
+        if (handle.transform.localRotation.y > -0.02f && door.transform.localRotation.z < 0.001f && bonusLockAccess)
         {
             doorRigidbody.constraints = RigidbodyConstraints.FreezeRotation;
             doorRigidbody.isKinematic = true;
@@ -21,12 +23,21 @@ public class DoorLock : MonoBehaviour
         }
     }
 
+    void bonusLockUpdate()
+    {
+        if (bonusLock != null)
+        {
+            bonusLockAccess = bonusLock.GetComponent<CardReader>().isCardValid;
+        }
+    }
+
     void Start()
     {
 
     }
     void Update()
     {
+        bonusLockUpdate();
         LockUpdate();
     }
 }
