@@ -61,8 +61,16 @@ public class NPC1Behaviour : MonoBehaviour
         {
             isMoving = false;
             animator.SetBool("isMoving", false);
+            
         }
         
+    }
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.name == "NPC1destination")
+        {
+            GameObject.Find("NPC1").transform.rotation = GameObject.Find("NPC1destination").transform.rotation;
+        }
     }
 
 }
