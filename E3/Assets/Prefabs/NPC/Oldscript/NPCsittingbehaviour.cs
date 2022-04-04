@@ -78,6 +78,6 @@ public class NPCsittingbehaviour : MonoBehaviour
             GameObject.Find("NPCsitting").transform.rotation = GameObject.Find("ch2").transform.rotation;
             sitting = false;
         }
-        
-    }
+
+    } 
 }
