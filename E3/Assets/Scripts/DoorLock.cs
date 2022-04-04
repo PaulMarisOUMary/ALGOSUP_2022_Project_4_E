@@ -6,7 +6,7 @@ public class DoorLock : MonoBehaviour
 {
     public GameObject door;
     public GameObject handle;
-    public bool bonusLockAccess = true;
+    public bool bonusLockAccess = false;
     public GameObject bonusLock;
 
     void LockUpdate()
@@ -28,6 +28,10 @@ public class DoorLock : MonoBehaviour
         if (bonusLock != null)
         {
             bonusLockAccess = bonusLock.GetComponent<CardReader>().isCardValid;
+        }
+        else
+        {
+            bonusLockAccess = true;
         }
     }
 
