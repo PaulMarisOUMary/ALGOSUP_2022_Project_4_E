@@ -30,12 +30,15 @@ public class CardReader : MonoBehaviour
     {
         //Check for a match with the specified name on any GameObject that collides with your GameObject
         if (collision.collider.gameObject.GetComponent<AccessCard>() != null)
+        {
+            Debug.Log("CardReader: Card detected");
             if ((int)collision.collider.gameObject.GetComponent<AccessCard>().AccessLevelGranted >= (int)AccessLevelRequired)
                 {
                     isCardValid = true;
                     Coroutine coroutine = StartCoroutine(delay());
                     Debug.Log("Access Granted");
                 }
+        }
     }
 
     void StatusIndicatorUpdate()
