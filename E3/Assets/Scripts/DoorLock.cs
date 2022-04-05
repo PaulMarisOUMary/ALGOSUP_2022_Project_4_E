@@ -5,15 +5,16 @@ using UnityEngine;
 public class DoorLock : MonoBehaviour
 {
     public GameObject door;
-    public GameObject handle;
-    public bool bonusLockAccess = false;
-    public GameObject bonusLock;
+    public bool cardReaderUnlockStatus = false;
+    public GameObject cardReader;
+    private bool doorMoved = false;
+    private Quaternion doorStartPosition;
 
     void LockUpdate()
     {
         Rigidbody doorRigidbody = door.GetComponent<Rigidbody>();
-
-        if (handle.transform.localRotation.y > -0.02f && door.transform.localRotation.z < 0.001f && bonusLockAccess)
+        bool validCard = cardReader.GetComponent<CardReader>().isCardValid;
+        if (!validCard)
         {
             doorRigidbody.constraints = RigidbodyConstraints.FreezeRotation;
             doorRigidbody.isKinematic = true;
@@ -21,27 +22,34 @@ public class DoorLock : MonoBehaviour
             doorRigidbody.constraints = RigidbodyConstraints.None;
             doorRigidbody.isKinematic = false;
         }
+        //unlock door
+        //check if the door moved by at least 5°
+        if (!(Mathf.Abs(door.transform.rotation.y - doorStartPosition.y)<0.05f) && !doorMoved)
+        {
+            doorMoved = true;
+        }
+        if (doorMoved && (Mathf.Abs(door.transform.rotation.y - doorStartPosition.y)<0.0005f))
+        {
+            doorMoved = false;
+            cardReader.GetComponent<CardReader>().isCardValid = false;
+        }
     }
 
-    void bonusLockUpdate()
+    void CardReaderUpdate()
     {
-        if (bonusLock != null)
-        {
-            bonusLockAccess = bonusLock.GetComponent<CardReader>().isCardValid;
-        }
+        if (cardReader != null)
+            cardReaderUnlockStatus = cardReader.GetComponent<CardReader>().isCardValid;
         else
-        {
-            bonusLockAccess = true;
-        }
+            cardReaderUnlockStatus = true;
     }
 
     void Start()
     {
-
+        doorStartPosition = door.transform.rotation;
     }
     void Update()
     {
-        bonusLockUpdate();
+        CardReaderUpdate();
         LockUpdate();
     }
 }
