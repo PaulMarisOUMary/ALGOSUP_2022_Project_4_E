@@ -1073,6 +1073,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Custom",
+            "id": "e50f737b-e882-4548-bb18-81ae7dbc01fa",
+            "actions": [
+                {
+                    "name": "Reset Position",
+                    "type": "Button",
+                    "id": "75d28a28-03c1-4c93-a28c-16499f33e533",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b98ae1e8-8fc6-400d-a732-a29ed5cdbfc0",
+                    "path": "<OculusTouchController>/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Reset Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

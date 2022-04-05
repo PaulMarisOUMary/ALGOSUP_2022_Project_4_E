@@ -1,23 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class ResetPos : MonoBehaviour
 {
-    public GameObject YourSelf;
-    // Start is called before the first frame update
-    void Start()
+
+    public InputActionReference resetButtonReference;
+
+    private Vector3 originalPosition;
+    private Quaternion originalRotation;
+
+    private void Awake()
     {
-        
+        originalPosition = transform.position;
+        originalRotation = transform.rotation;
+        resetButtonReference.action.started += ResetPosition;
     }
 
-    // Update is called once per frame
-    void Update()
+	private void OnDestroy() {
+        resetButtonReference.action.started -= ResetPosition;
+    }
+
+	void ResetPosition(InputAction.CallbackContext context)
     {
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            YourSelf.transform.position = new Vector3(0, 1, 0);
-            YourSelf.transform.rotation = Quaternion.Euler(0, 0, 0);
+            transform.position = originalPosition;
+            transform.rotation = originalRotation;
         }
     }
 }
