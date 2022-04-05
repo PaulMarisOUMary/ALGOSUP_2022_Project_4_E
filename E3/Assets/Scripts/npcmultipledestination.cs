@@ -44,6 +44,7 @@ public class npcmultipledestination : MonoBehaviour
     }
     public int GetRandomNumber()
     {
-         return Random.Range(0, 6);
-    
+        return Random.Range(0, 6);
+
     }
+}
