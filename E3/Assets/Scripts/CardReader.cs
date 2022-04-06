@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class CardReader : MonoBehaviour
 {
-
+    public bool isCardValid = false;
+    public GameObject status;
+    public Material validMaterial , invalidMaterial;
     public enum AccessLevel : int
     {
         Students,
@@ -13,12 +15,6 @@ public class CardReader : MonoBehaviour
     };
     public AccessLevel AccessLevelRequired = AccessLevel.Staff;
 
-    public bool isCardValid = false;
-    public GameObject status;
-    public Material validMaterial;
-    public Material invalidMaterial;
-
-    //colision detection into test the access level :ok_hand:
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.GetComponent<AccessCard>() != null)

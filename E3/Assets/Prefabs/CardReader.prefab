@@ -160,7 +160,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3f52f54c3615a4831b06376f3ee8818a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -340,11 +340,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e74b4ff08e952494eacce4d5ce233132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AccessLevelRequired: 1
   isCardValid: 0
   status: {fileID: 1383157115431888504}
   validMaterial: {fileID: 2100000, guid: b853b9ac12602440ab4fa922109e1f4a, type: 2}
   invalidMaterial: {fileID: 2100000, guid: 180d9ebb222f546c689d7bf08e65b1d9, type: 2}
+  AccessLevelRequired: 1
 --- !u!65 &1049235611892967290
 BoxCollider:
   m_ObjectHideFlags: 0

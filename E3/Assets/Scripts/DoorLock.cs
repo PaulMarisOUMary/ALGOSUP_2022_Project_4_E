@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class DoorLock : MonoBehaviour
 {
-    public GameObject door;
+    public GameObject door , cardReader;
     public bool cardReaderUnlockStatus = false;
-    public GameObject cardReader;
     private bool doorMoved = false;
     private Quaternion doorStartPosition;
 
