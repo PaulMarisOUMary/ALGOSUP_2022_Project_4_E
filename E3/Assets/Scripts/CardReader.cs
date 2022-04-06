@@ -14,7 +14,6 @@ public class CardReader : MonoBehaviour
         Admin
     };
     public AccessLevel AccessLevelRequired = AccessLevel.Staff;
-
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.GetComponent<AccessCard>() != null)
