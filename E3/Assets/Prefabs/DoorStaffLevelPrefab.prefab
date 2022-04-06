@@ -677,7 +677,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   door: {fileID: -8068073526183931155}
   cardReader: {fileID: 2622757867443748203}
-  cardReaderUnlockStatus: 0
+  doorMoved: 0
 --- !u!1001 &8037213390107027895
 PrefabInstance:
   m_ObjectHideFlags: 0

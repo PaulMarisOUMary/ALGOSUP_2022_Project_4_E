@@ -654,7 +654,7 @@ Transform:
   m_GameObject: {fileID: 7937770767524878555}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7834382342689249201}
@@ -676,4 +676,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   door: {fileID: -8068073526183931155}
   cardReader: {fileID: 5470750519097021660, guid: e91c76a1b812242feb9654ed3a7e5ba1, type: 3}
-  cardReaderUnlockStatus: 0
+  doorMoved: 0
