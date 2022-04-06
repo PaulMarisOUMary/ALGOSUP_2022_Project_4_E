@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class AccessCard : MonoBehaviour
 {
-    public enum AccessLevel : int
-    {
-        Students,
-        Staff, 
-        Admin
-    };
+    public enum AccessLevel : int{Students,Staff, Admin};
     public AccessLevel AccessLevelGranted = AccessLevel.Students;
 }

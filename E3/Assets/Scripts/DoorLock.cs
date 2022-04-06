@@ -4,40 +4,21 @@ using UnityEngine;
 
 public class DoorLock : MonoBehaviour
 {
-    public GameObject door;
-    public GameObject handle;
-    public bool bonusLockAccess = true;
-    public GameObject bonusLock;
-
-    void LockUpdate()
-    {
-        Rigidbody doorRigidbody = door.GetComponent<Rigidbody>();
-
-        if (handle.transform.localRotation.y > -0.02f && door.transform.localRotation.z < 0.001f && bonusLockAccess)
-        {
-            doorRigidbody.constraints = RigidbodyConstraints.FreezeRotation;
-            doorRigidbody.isKinematic = true;
-        }else{
-            doorRigidbody.constraints = RigidbodyConstraints.None;
-            doorRigidbody.isKinematic = false;
-        }
-    }
-
-    void bonusLockUpdate()
-    {
-        if (bonusLock != null)
-        {
-            bonusLockAccess = bonusLock.GetComponent<CardReader>().isCardValid;
-        }
-    }
-
-    void Start()
-    {
-
-    }
+    public GameObject door , cardReader;
+    public bool doorMoved = false;
+    private Quaternion doorStartPosition;
+    void Start(){doorStartPosition = door.transform.rotation;}
     void Update()
     {
-        bonusLockUpdate();
-        LockUpdate();
+        Rigidbody doorRigidbody = door.GetComponent<Rigidbody>();
+        bool validCard = cardReader.GetComponent<CardReader>().isCardValid;
+        doorRigidbody.constraints = (!cardReader.GetComponent<CardReader>().isCardValid ? RigidbodyConstraints.FreezeRotation : RigidbodyConstraints.None);
+        doorRigidbody.isKinematic = !cardReader.GetComponent<CardReader>().isCardValid;
+        doorMoved = !(Mathf.Abs(door.transform.rotation.y - doorStartPosition.y)<0.05f) || doorMoved;
+        if (doorMoved && (Mathf.Abs(door.transform.rotation.y - doorStartPosition.y)<0.0005f))
+        {
+            doorMoved = false;
+            cardReader.GetComponent<CardReader>().isCardValid = false;
+        }
     }
 }
