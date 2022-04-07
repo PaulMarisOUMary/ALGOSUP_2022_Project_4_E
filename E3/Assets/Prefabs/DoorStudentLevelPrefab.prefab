@@ -119,7 +119,7 @@ HingeJoint:
   m_Axis: {x: 0, y: 0, z: 90}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
-  m_UseSpring: 1
+  m_UseSpring: 0
   m_Spring:
     spring: 0.02
     damper: 0
@@ -677,7 +677,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   door: {fileID: -8068073526183931155}
   cardReader: {fileID: 2622757867443748203}
-  cardReaderUnlockStatus: 0
+  doorMoved: 0
 --- !u!1001 &8037213390107027895
 PrefabInstance:
   m_ObjectHideFlags: 0
