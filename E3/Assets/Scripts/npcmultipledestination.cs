@@ -20,7 +20,7 @@ public class npcmultipledestination : MonoBehaviour
             animator.SetBool("isMoving", true);
             if (pivotPoint == 6)
             {
-                this.gameObject.transform.position = new Vector3(-11.0600004f, -0.50999999f, -85.7900009f); // good
+                this.gameObject.transform.position = new Vector3(-11.8000002f, -0.50999999f, -79.0400009f); // good
             }
             if (pivotPoint == 5)
             {
