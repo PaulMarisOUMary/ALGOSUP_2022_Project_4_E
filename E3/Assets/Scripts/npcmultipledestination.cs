@@ -7,11 +7,17 @@ using UnityEngine.AI;
 public class npcmultipledestination : MonoBehaviour
 {
     public int pivotPoint;
+    Animator animator;
     void OnTriggerEnter(Collider other)
     {
+        GameObject NPC = GameObject.Find("NPC11");
+        animator = NPC.GetComponent<Animator>();
+        animator.SetBool("isMoving", false);
         if (other.tag == "NPC")
         {
             pivotPoint = GetRandomNumber();
+            WaitingTime();
+            animator.SetBool("isMoving", true);
             if (pivotPoint == 6)
             {
                 this.gameObject.transform.position = new Vector3(-11.0600004f, -0.50999999f, -85.7900009f); // good
@@ -46,5 +52,9 @@ public class npcmultipledestination : MonoBehaviour
     {
         return Random.Range(0, 7);
 
+    }
+    IEnumerator WaitingTime()
+    {
+        yield return new WaitForSeconds(5f);
     }
 }
