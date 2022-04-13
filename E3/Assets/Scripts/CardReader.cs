@@ -4,41 +4,11 @@ using UnityEngine;
 
 public class CardReader : MonoBehaviour
 {
-    public enum AccessLevel : int
-    {
-        Students,
-        Staff, 
-        Admin
-    };
-    public AccessLevel AccessLevelRequired = AccessLevel.Staff;
-
     public bool isCardValid = false;
-
-    //colision detection into test the access level :ok_hand:
-    void OnCollisionEnter(Collision collision)
-    {
-        //Check for a match with the specified name on any GameObject that collides with your GameObject
-        if (collision.gameObject.GetComponent<AccessCard>().AccessLevelGranted != null)
-        {
-            if ((int)collision.gameObject.GetComponent<AccessCard>().AccessLevelGranted >= (int)AccessLevelRequired && !isCardValid)
-            {
-                isCardValid = true;
-            }
-            else
-            {
-                isCardValid = false;
-            }
-        }
-    }    
-
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-
-    }
+    public GameObject status;
+    public Material validMaterial , invalidMaterial;
+    public enum AccessLevel : int{Students,Staff, Admin};
+    public AccessLevel AccessLevelRequired = AccessLevel.Staff;
+    void OnCollisionEnter(Collision collision){isCardValid = (int)collision.gameObject.GetComponent<AccessCard>().AccessLevelGranted >= (int)AccessLevelRequired;}
+    void Update(){status.GetComponent<Renderer>().material = (isCardValid ? validMaterial : invalidMaterial);}
 }

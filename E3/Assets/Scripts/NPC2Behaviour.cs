@@ -56,7 +56,8 @@ public class NPC2Behaviour : MonoBehaviour
             theAgent.SetDestination(destination.transform.position);
             animator.SetBool("isMoving", true);
         }
-        if ((isMoving == false) && (isSitting == true)){
+        if ((isMoving == false) && (isSitting == true))
+        {
             if (gameObject.name == "NPC2")
             {
                 GameObject.Find("NPC2").transform.rotation = GameObject.Find("Chair_Conference_Red2").transform.rotation;
@@ -65,13 +66,17 @@ public class NPC2Behaviour : MonoBehaviour
             {
                 GameObject.Find("NPC3").transform.rotation = GameObject.Find("Chair_Conference_Red1").transform.rotation;
             }
+            else if (gameObject.name == "NPC4")
+            {
+                GameObject.Find("NPC4").transform.rotation = GameObject.Find("Chair_Conference_Red").transform.rotation;
+            }
 
         }
 
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "NPC2destination" || other.gameObject.name == "NPC3destination")
+        if (other.gameObject.name == "NPC2destination" || other.gameObject.name == "NPC3destination" || other.gameObject.name == "NPC4destination")
         {
             isMoving = false;
             animator.SetBool("isMoving", false);
@@ -98,19 +103,24 @@ public class NPC2Behaviour : MonoBehaviour
         {
             // Vector3(-12.4840002,0.063000001,-11.434)
             navObstacleInteraction = GameObject.Find("Chair_Conference_Red1").GetComponent<NavMeshObstacle>();
-            GameObject.Find("Chair_Conference_Red1").transform.position = new Vector3(-12.4840002f, 0f, -11.434f);
-            GameObject.Find("NPC3destination").transform.position = new Vector3(-12.4840002f, 0.5f, -11.434f);
+            GameObject.Find("Chair_Conference_Red1").transform.position = new Vector3(-12.4840002f, 0f, -11.134f);
+            GameObject.Find("NPC3destination").transform.position = new Vector3(-12.4840002f, 0.5f, -11.134f);
             navObstacleInteraction.enabled = false;
-
-
+        }
+        else if (gameObject.name == "NPC4")
+        {
+            // Vector3(-10.9829998,0.0430000015,-11.4759998)
+            navObstacleInteraction = GameObject.Find("Chair_Conference_Red3").GetComponent<NavMeshObstacle>();
+            GameObject.Find("Chair_Conference_Red3").transform.position = new Vector3(-10.9829998f, 0f, -11.1759998f);
+            GameObject.Find("NPC4destination").transform.position = new Vector3(-10.9829998f, 0.5f, -11.1759998f);
+            navObstacleInteraction.enabled = false;
         }
         theAgent.SetDestination(destination.transform.position);
         yield return new WaitForSeconds(2.05f);
         animator.SetBool("isMoving", false);
         animator.SetBool("WantToSit", false);
         animator.SetBool("WantToStand", false);
-
+        //GameObject.Find("NPCsitting").transform.rotation = GameObject.Find("ch2").transform.rotation;
+        // Chair_Conference_Red (2)
     }
-    //GameObject.Find("NPCsitting").transform.rotation = GameObject.Find("ch2").transform.rotation;
-    // Chair_Conference_Red (2)
 }

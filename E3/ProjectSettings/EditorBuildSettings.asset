@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/PrefabTestingScene.unity
     guid: 31b51ec4fc81a4e349b0281e128ec4b8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/DebugRoom.unity
     guid: 6040505fe74ba6b459acb82d5b3e4e1f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: accc09ed669164ccfaef4cb7c63faa2c
   m_configObjects:
