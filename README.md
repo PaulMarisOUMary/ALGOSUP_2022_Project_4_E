@@ -1,7 +1,5 @@
 # ALGOSUP_2022_Project_4_E
 
-![](https://img.shields.io/github/languages/top/PaulMarisOuMary/ALGOSUP_2022_Project_4_E)
-
 ## Documents :
 
 #### [Functionnal Specification](https://github.com/PaulMarisOUMary/ALGOSUP_2022_Project_4_E/blob/position-reset/Documents/Functionnal-Specification.md)
